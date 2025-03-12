@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SeekBarPreference -->
+    <string name="input_must_number">Your input is not a number</string>
+    <string name="input_not_within_range">Your input is not within range</string>
+</resources>

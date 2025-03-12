@@ -1,0 +1,3 @@
+files:
+  - source: /I18N/values/strings.xml
+    translation: /I18N/values-%two_letters_code%/%original_file_name%
