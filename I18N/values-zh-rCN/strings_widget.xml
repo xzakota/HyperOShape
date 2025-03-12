@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SeekBarPreference -->
+    <string name="input_must_number">输入不为数字</string>
+    <string name="input_not_within_range">输入不在规定范围内</string>
+</resources>
