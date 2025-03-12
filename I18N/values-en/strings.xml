@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators" translatable="false">Google Translate</string>
-
     <!-- base -->
     <string name="back">Back</string>
     <string name="menu">Menu</string>
@@ -40,7 +38,6 @@
     <string name="overwrite">Overwrite</string>
     <string name="delete">Delete</string>
     <string name="native_text">Native</string>
-
     <!-- app -->
     <string name="need_permission_what">The [%s] permission needs to be granted to this app</string>
     <string name="need_permission_root">The [ROOT] permission needs to be granted to this app</string>
@@ -63,27 +60,24 @@
     <string name="apps_that_not_turned_on">Apps that aren\'t turned on</string>
     <string name="light_mode">Light mode</string>
     <string name="dark_mode">Dark mode</string>
-
     <!-- dialog -->
     <string name="whether_or_not">Sure want to %s?</string>
     <string name="double_confirmation">Double confirmation</string>
     <string name="loading">Loading…</string>
-
     <!-- crash -->
     <string name="app_crashed">App crashed</string>
     <string name="submit_logs">Please submit logs feedback</string>
     <string name="copy_logs">Copy logs</string>
-
     <!-- function -->
     <string name="clean_dexkit_cache">Clean DexKit cache</string>
     <string name="experimental_function">Experimental function</string>
+    <string name="safe_mode">Safe mode</string>
     <string name="additional_function">Additional function</string>
     <string name="hidden_features">Hidden features</string>
     <string name="reduce_bright_colors">Extra dim</string>
     <string name="opt_reduce_bright_colors">Extra dim tile optimization</string>
     <string name="default_apps">Default apps</string>
     <string name="running_services">Running services</string>
-    <string name="safe_mode">Safe mode</string>
     <string name="active_safe_mode">Active Safe Mode</string>
     <string name="safe_mode_on_desc">The current app allows manual Safe Mode, do you want to turn on? When scopes are turned on and restarted, all features are disabled.</string>
     <string name="safe_mode_off_desc">The app is in Safe Mode and all features are disabled, do you want to turn off the Safe Mode?</string>
@@ -115,7 +109,6 @@
     <string name="not_in_scope">Not added to the scope of this module</string>
     <string name="request_scope">Request scope</string>
     <string name="requesting">Requesting…</string>
-
     <!-- overview -->
     <string name="module_version">Module version</string>
     <string name="module_version_type">Version Type</string>
@@ -132,7 +125,6 @@
     <string name="system_apps">System apps</string>
     <string name="sort">Sort</string>
     <string name="reverse_sort">Reverse sort</string>
-
     <!-- preference -->
     <string name="preference">Preference</string>
     <string name="default_option">Default</string>
@@ -158,10 +150,9 @@
     <string name="layout_optimization">Layout optimization</string>
     <string name="trigger_threshold">Trigger threshold</string>
     <string name="max_trigger_threshold">Max trigger threshold</string>
-
     <!-- app settings -->
-    <string name="follow_system">Follow system</string>
     <string name="language">Language</string>
+    <string name="follow_system">Follow system</string>
     <string name="translation_contributors">Translation contributors</string>
     <string name="theme">Theme</string>
     <string name="dark_theme">Dark theme</string>
@@ -196,7 +187,6 @@
     <string name="auto_generated">Auto Generated</string>
     <string name="special_thanks">Special Thanks</string>
     <string name="view_in_browser">View in browser</string>
-
     <!-- android -->
     <string name="notification">Notification</string>
     <string name="native_notification">Native notification</string>
@@ -205,7 +195,6 @@
     <string name="transparent_button_background">Transparent button background</string>
     <string name="layout_margin">Layout margin</string>
     <string name="layout_margin_desc">-1dp meas not enable modification</string>
-
     <!-- system ui -->
     <string name="header_layout">Header layout</string>
     <string name="landscape_display">Landscape display</string>
@@ -295,13 +284,11 @@
     <string name="default_style">Default style</string>
     <string name="native_style">Native style</string>
     <string name="module_built_in_style1">Built-in style 1 of the module</string>
-
     <!-- settings -->
-    <string name="fix_jump_draw_overlay_details">Fixed granting the "Display over other apps" permission not jumping correctly</string>
+    <string name="fix_jump_draw_overlay_details">Fixed granting the \"Display over other apps\" permission not jumping correctly</string>
     <string name="show_notification_channel_id">Notification category page displays channel ID</string>
     <string name="channel_id">Channel ID</string>
     <string name="device_bg_effect_follow_hook_theme">Device page background effect follow hook theme</string>
-
     <!-- home -->
     <string name="drawer">Drawer</string>
     <string name="layout">Layout</string>
@@ -324,7 +311,6 @@
     <string name="big_folder">Big folder</string>
     <string name="true_x_square_grid">True Four/Nine-Square Grid</string>
     <string name="widget_mi_blur_follow_hook_theme">Textures background follow hook theme</string>
-
     <!-- security center -->
     <string name="simplified_home_fragment">Simplify the home fragment of Security Center</string>
     <string name="simplified_home_fragment_desc">Remove the Function Recommendations card</string>
@@ -337,7 +323,7 @@
     <string name="application">Application</string>
     <string name="application_detail">Application detail</string>
     <string name="optimize_menu_items">Replace Report menu</string>
-    <string name="optimize_menu_items_desc">Replace with "Launch" menu</string>
+    <string name="optimize_menu_items_desc">Replace with \"Launch\" menu</string>
     <string name="manage_more_permission">Manage more permission</string>
     <string name="manage_more_permission_desc">Can manage more permissions on the Permissions page, e.g. Special permissions</string>
     <string name="special_permissions">Special permissions</string>
@@ -347,7 +333,7 @@
     <string name="draw_overlay">Display over other apps</string>
     <string name="open_by_default">Open by default</string>
     <string name="open_by_default_preference">Replace Clear defaults</string>
-    <string name="open_by_default_preference_desc">Replace with "Open by default"</string>
+    <string name="open_by_default_preference_desc">Replace with \"Open by default\"</string>
     <string name="app_detail_show_more_info">Show more information</string>
     <string name="version_code">Version code</string>
     <string name="uid">UID</string>
@@ -357,7 +343,6 @@
     <string name="internal_data_dir">Internal storage data directory</string>
     <string name="protected_internal_data_dir">Protected internal storage data directory</string>
     <string name="external_data_dir">External storage data directory</string>
-
     <!-- downloads -->
     <string name="xlDownload_folder">Manage the .xlDownload folder</string>
     <string name="xlDownload_folder_desc">This folder will be moved to /sdcard/Download</string>
