@@ -1,4 +1,4 @@
-**文档更新日期：2025-03-06**
+**文档更新日期：2025-03-12**
 
 # 定义一个新主题
 新建 `config.json` 文件，填写主题配置项。
@@ -49,6 +49,9 @@ sunlight_mode | 阳光模式
 invisible_mode | 隐身模式
 expand_notification | 原生通知样式展开按钮图标
 collapse_notification | 原生通知样式折叠按钮图标
+xiaoai | 小爱同学
+super_xiaoai | 超级小爱
+extra_dim_mode | 极暗模式
 
 支持的图标文件格式: **`svg`**、`png`、`jpg`。
 
