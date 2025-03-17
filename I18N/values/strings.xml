@@ -39,6 +39,11 @@
     <string name="permission">权限</string>
     <string name="overwrite">覆盖</string>
     <string name="delete">删除</string>
+    <string name="test">测试</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="additional_metadata">额外参数</string>
+    <string name="post">发送</string>
     <string name="native_text">原生</string>
 
     <!-- app -->
@@ -93,7 +98,9 @@
     <string name="safe_mode_report">主动安全模式通知</string>
     <string name="safe_mode_report_desc">通知强制启用，但须确保已授予 [发送通知] 权限</string>
     <string name="safe_mode_focus_report">以焦点通知形式通知</string>
+    <string name="safe_mode_focus_report_desc">若启用，系统设置将被覆盖，同时须确保勾选 [系统界面] 作用域</string>
     <string name="manage_hook_theme">资源主题管理</string>
+    <string name="manage_hook_theme_require">使用自定义主题必须安装 >= 7334 版本的 LSPosed！</string>
     <string name="import_theme">导入主题</string>
     <string name="invalid_theme_package">不是有效的主题包</string>
     <string name="invalid_theme_slug">不是有效的主题 ID</string>
@@ -107,7 +114,6 @@
     <string name="delete_succeeded">删除成功</string>
     <string name="cannot_deleted_default_theme">无法删除默认主题</string>
     <string name="cannot_deleted_active_theme">无法删除使用中的主题</string>
-    <string name="safe_mode_focus_report_desc">若启用，系统设置将被覆盖，同时须确保勾选 [系统界面] 作用域</string>
     <string name="safe_mode_report_test">测试安全模式通知</string>
     <string name="collaborative_config">协同配置</string>
     <string name="scope_list_status">作用域列表状态</string>
@@ -199,12 +205,13 @@
 
     <!-- android -->
     <string name="notification">通知</string>
+    <string name="device_global_settings">全局设置</string>
     <string name="native_notification">原生通知</string>
     <string name="expand_button_icon_customization">展开按钮图标自定义</string>
     <string name="transparent_background">透明背景</string>
     <string name="transparent_button_background">按钮透明背景</string>
     <string name="layout_margin">布局边距</string>
-    <string name="layout_margin_desc">-1dp 则不启用修改</string>
+    <string name="right_icon_size">大图标大小</string>
 
     <!-- system ui -->
     <string name="header_layout">顶栏布局</string>
@@ -218,6 +225,8 @@
     <string name="force_overlap_im_icon_desc">强制显示叠加图标</string>
     <string name="auto_expand_notifications">自动展开通知</string>
     <string name="only_native_notification_style">仅适用原生通知样式</string>
+    <string name="focus_notification">焦点通知</string>
+    <string name="focus_notification_test">焦点通知测试</string>
     <string name="focus_notification_whitelist">焦点通知白名单</string>
     <string name="focus_notification_whitelist_desc">在官方基础上增加应用，将关键通知以特殊样式展示</string>
     <string name="show_weather_city">显示所在城市</string>

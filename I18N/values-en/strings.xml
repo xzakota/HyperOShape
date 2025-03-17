@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators" translatable="false">Google Translate</string>
+    <string name="translators">Google Translate</string>
 
     <!-- base -->
     <string name="back">Back</string>
@@ -39,6 +39,11 @@
     <string name="permission">Permission</string>
     <string name="overwrite">Overwrite</string>
     <string name="delete">Delete</string>
+    <string name="test">Test</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="additional_metadata">Additional metadata</string>
+    <string name="post">Post</string>
     <string name="native_text">Native</string>
 
     <!-- app -->
@@ -93,7 +98,9 @@
     <string name="safe_mode_report">Active Safe Mode notification</string>
     <string name="safe_mode_report_desc">Notification are force enabled, but make sure that [Post Notifications] is authorized</string>
     <string name="safe_mode_focus_report">Notify in the form of notification spotlight</string>
+    <string name="safe_mode_focus_report_desc">If enabled, the system settings will be overwritten, and you must make sure that the [SystemUI] scope is checked</string>
     <string name="manage_hook_theme">Theme manager</string>
+    <string name="manage_hook_theme_require">To use a custom theme, you must have the >= 7334 version of LSPosed installed!</string>
     <string name="import_theme">Import theme</string>
     <string name="invalid_theme_package">Invalid theme package</string>
     <string name="invalid_theme_slug">Invalid theme id</string>
@@ -107,7 +114,6 @@
     <string name="delete_succeeded">Delete succeeded</string>
     <string name="cannot_deleted_default_theme">The default theme cannot be deleted</string>
     <string name="cannot_deleted_active_theme">The theme in use cannot be deleted</string>
-    <string name="safe_mode_focus_report_desc">If enabled, the system settings will be overwritten, and you must make sure that the [SystemUI] scope is checked</string>
     <string name="safe_mode_report_test">Test Safe Mode notification</string>
     <string name="collaborative_config">Collaborative configuration</string>
     <string name="scope_list_status">Scope list status</string>
@@ -199,12 +205,13 @@
 
     <!-- android -->
     <string name="notification">Notification</string>
+    <string name="device_global_settings">Global settings</string>
     <string name="native_notification">Native notification</string>
     <string name="expand_button_icon_customization">Expand button icon customization</string>
     <string name="transparent_background">Transparent background</string>
     <string name="transparent_button_background">Transparent button background</string>
     <string name="layout_margin">Layout margin</string>
-    <string name="layout_margin_desc">-1dp meas not enable modification</string>
+    <string name="right_icon_size">Large icon size</string>
 
     <!-- system ui -->
     <string name="header_layout">Header layout</string>
@@ -218,6 +225,8 @@
     <string name="force_overlap_im_icon_desc">Force show overlap-icon</string>
     <string name="auto_expand_notifications">Auto expand notifications</string>
     <string name="only_native_notification_style">Only applicable to native notification style</string>
+    <string name="focus_notification">Notification spotlight</string>
+    <string name="focus_notification_test">Notification spotlight test</string>
     <string name="focus_notification_whitelist">Notification spotlight whitelist</string>
     <string name="focus_notification_whitelist_desc">Add apps on the official basis, use custom notification format to highlight important info</string>
     <string name="show_weather_city">Show city</string>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SeekBarPreference -->
+    <string name="input_must_number">Входные данные не являются числом</string>
+    <string name="input_not_within_range">Входные данные находятся не в указанном диапазоне</string>
+</resources>
