@@ -190,6 +190,7 @@
     <string name="chat_groups">Chat groups</string>
     <string name="no_groups">No groups yet</string>
     <string name="update_log">Update log</string>
+    <string name="open_source_repository">Open source repository</string>
     <string name="user_agreement">User agreement</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="open_source_license">Open source license</string>
@@ -247,6 +248,7 @@
     <string name="only_portrait_mode">Only support portrait mode</string>
     <string name="left_button_group_extra_bottom_margin">Left button group extra bottom margin</string>
     <string name="right_button_group_extra_bottom_margin">Right button group extra bottom margin</string>
+    <string name="button_group_adaptive">Smart button group properties</string>
     <string name="button_size">Button size</string>
     <string name="button_spacing">Button spacing</string>
     <string name="tile_management">Tile management</string>
@@ -262,6 +264,12 @@
     <string name="brightness_slider_show_percentage">Brightness slider displays the percentage value</string>
     <string name="volume_slider_show_percentage">Volume slider displays the percentage value</string>
     <string name="hide_edit_button">Hide default edit button</string>
+    <string name="show_lyric">Displays the lyrics</string>
+    <string name="show_lyric_desc">It must be used with LyricGetter(cn.lyric.getter)</string>
+    <string name="attach_media_panel_artist">Replace the artist in the media panel</string>
+    <string name="attach_date_time">Replace the date time</string>
+    <string name="volume_dialog">Global volume dialog</string>
+    <string name="hide_ringer_mode_button">Hide silent mode and dnd mode button</string>
     <string name="lockscreen">Lock Screen</string>
     <string name="show_carrier_under_keyguard">Show carrier when device is locked</string>
     <string name="carrier_text_view_max_width">Carrier text view width</string>
@@ -273,6 +281,7 @@
     <string name="move_notification_down">Move notification down</string>
     <string name="downward_movement_value">Downward movement value</string>
     <string name="downward_movement_max_value">Max downward movement value</string>
+    <string name="downward_movement_max_value_desc">Reconfiguration is required after the resolution is modified</string>
     <string name="downward_movement_method">Downward movement method</string>
     <string name="static_downward_movement">Static downward movement</string>
     <string name="preset_dynamic_downward_movement">Dynamic downward movement</string>
@@ -289,6 +298,7 @@
     <string name="button_active_sensitivity_level2">Activated-button sensitivity(II)</string>
     <string name="quick_payment">Quick payment</string>
     <string name="flashlight">Flashlight</string>
+    <string name="camera">Camera</string>
     <string name="customize_gesture">Customize gesture</string>
     <string name="swipe_direction_rtl">Slide left</string>
     <string name="swipe_direction_ltr">Slide right</string>
@@ -331,7 +341,11 @@
     <string name="rows">Rows</string>
     <string name="columns">Columns</string>
     <string name="big_folder">Big folder</string>
-    <string name="true_x_square_grid">True Four/Nine-Square Grid</string>
+    <string name="true_x_square_grid">True big folder</string>
+    <string name="unlock_more_sizes">Unlock more sizes</string>
+    <string name="unlock_more_sizes_desc">e.g. M</string>
+    <string name="hm_grid">H-M</string>
+    <string name="vm_grid">V-M</string>
     <string name="widget_mi_blur_follow_hook_theme">Textures background follow hook theme</string>
 
     <!-- security center -->

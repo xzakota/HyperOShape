@@ -190,6 +190,7 @@
     <string name="chat_groups">Группы чата</string>
     <string name="no_groups">Нет групп еще</string>
     <string name="update_log">Журнал обновлений</string>
+    <string name="open_source_repository">Репозиторий с открытым исходным кодом</string>
     <string name="user_agreement">Пользовательское соглашение</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
     <string name="open_source_license">Лицензия с открытым исходным кодом</string>
@@ -273,6 +274,7 @@
     <string name="move_notification_down">Переместить уведомление вниз</string>
     <string name="downward_movement_value">Значение движения вниз</string>
     <string name="downward_movement_max_value">Максимальное значение движения вниз</string>
+    <string name="downward_movement_max_value_desc">После изменения разрешения требуется повторная конфигурация</string>
     <string name="downward_movement_method">Метод движения вниз</string>
     <string name="static_downward_movement">Статическое движение вниз</string>
     <string name="preset_dynamic_downward_movement">Динамическое нисходящее движение</string>
@@ -289,6 +291,7 @@
     <string name="button_active_sensitivity_level2">Чувствительность активированной кнопки(II)</string>
     <string name="quick_payment">Быстрая оплата</string>
     <string name="flashlight">Фонарик</string>
+    <string name="camera">Фотоаппарат</string>
     <string name="customize_gesture">Настроить жест</string>
     <string name="swipe_direction_rtl">Слайд влево</string>
     <string name="swipe_direction_ltr">Слайд вправо</string>
@@ -331,7 +334,11 @@
     <string name="rows">Ряды</string>
     <string name="columns">Колонки</string>
     <string name="big_folder">Большая папка</string>
-    <string name="true_x_square_grid">Включенная сетка из четырех/девяти квадратов</string>
+    <string name="true_x_square_grid">По-настоящему большая папка</string>
+    <string name="unlock_more_sizes">Разблокировать больше размеров</string>
+    <string name="unlock_more_sizes_desc">например, M</string>
+    <string name="hm_grid">H-M</string>
+    <string name="vm_grid">V-M</string>
     <string name="widget_mi_blur_follow_hook_theme">Тема размытия при переходе к текстурам</string>
 
     <!-- security center -->

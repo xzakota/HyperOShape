@@ -190,6 +190,7 @@
     <string name="chat_groups">聊天群组</string>
     <string name="no_groups">暂无群组</string>
     <string name="update_log">更新日志</string>
+    <string name="open_source_repository">开源仓库</string>
     <string name="user_agreement">用户协议</string>
     <string name="privacy_policy">隐私政策</string>
     <string name="open_source_license">开放源代码许可</string>
@@ -247,6 +248,7 @@
     <string name="only_portrait_mode">仅竖屏模式生效</string>
     <string name="left_button_group_extra_bottom_margin">左按钮组额外下边距</string>
     <string name="right_button_group_extra_bottom_margin">右按钮组额外下边距</string>
+    <string name="button_group_adaptive">按钮组自适应</string>
     <string name="button_size">按钮大小</string>
     <string name="button_spacing">按钮间距</string>
     <string name="tile_management">磁贴管理</string>
@@ -262,6 +264,12 @@
     <string name="brightness_slider_show_percentage">亮度滑块显示百分比值</string>
     <string name="volume_slider_show_percentage">音量滑块(包含全局侧边栏)显示百分比值</string>
     <string name="hide_edit_button">隐藏默认编辑按钮</string>
+    <string name="show_lyric">歌词显示</string>
+    <string name="show_lyric_desc">需搭配酒域(cn.lyric.getter)使用</string>
+    <string name="attach_media_panel_artist">替换媒体面板艺术家</string>
+    <string name="attach_date_time">替换日期时间</string>
+    <string name="volume_dialog">全局音量条</string>
+    <string name="hide_ringer_mode_button">隐藏静音模式和勿扰模式按钮</string>
     <string name="lockscreen">锁屏</string>
     <string name="show_carrier_under_keyguard">锁屏时显示运营商名称</string>
     <string name="carrier_text_view_max_width">运营商文本组件最大宽度</string>
@@ -273,6 +281,7 @@
     <string name="move_notification_down">通知下沉</string>
     <string name="downward_movement_value">下沉高度</string>
     <string name="downward_movement_max_value">最大下沉值</string>
+    <string name="downward_movement_max_value_desc">修改分辨率后需要重新配置</string>
     <string name="downward_movement_method">下沉方式</string>
     <string name="static_downward_movement">静态下沉</string>
     <string name="preset_dynamic_downward_movement">预设动态下沉</string>
@@ -289,6 +298,7 @@
     <string name="button_active_sensitivity_level2">按钮激活灵敏度(II)</string>
     <string name="quick_payment">快支付</string>
     <string name="flashlight">手电筒</string>
+    <string name="camera">相机</string>
     <string name="customize_gesture">自定义手势</string>
     <string name="swipe_direction_rtl">左滑</string>
     <string name="swipe_direction_ltr">右滑</string>
@@ -331,7 +341,11 @@
     <string name="rows">行数量</string>
     <string name="columns">列数量</string>
     <string name="big_folder">大文件夹</string>
-    <string name="true_x_square_grid">真四/九宫格</string>
+    <string name="true_x_square_grid">真文件夹</string>
+    <string name="unlock_more_sizes">解锁更多尺寸</string>
+    <string name="unlock_more_sizes_desc">例 三宫格</string>
+    <string name="hm_grid">横-三宫格</string>
+    <string name="vm_grid">纵-三宫格</string>
     <string name="widget_mi_blur_follow_hook_theme">高级材质跟随资源主题</string>
 
     <!-- security center -->
