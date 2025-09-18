@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators" translatable="false">null</string>
+    <string name="translators">null</string>
 
     <!-- base -->
     <string name="empty" translatable="false" />
