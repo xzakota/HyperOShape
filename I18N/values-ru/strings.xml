@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
+    <string name="translators">Алексей</string>
     <!-- base -->
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
