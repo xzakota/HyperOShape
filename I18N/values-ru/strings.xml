@@ -67,7 +67,7 @@
     <string name="dark_mode">Темный режим</string>
     <string name="debug_input">Входные настройки</string>
     <string name="debug_drawing">Настройки чертежа</string>
-    <string name="debug_monitoring">监控</string>
+    <string name="debug_monitoring">Мониторинг</string>
     <!-- dialog -->
     <string name="whether_or_not">Уверены, что хотите %s?</string>
     <string name="double_confirmation">Двойное подтверждение</string>
