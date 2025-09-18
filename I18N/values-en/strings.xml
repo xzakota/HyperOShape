@@ -272,7 +272,7 @@
     <string name="pointer_location">Pointer location</string>
     <string name="pointer_location_desc">Show touch coordinates</string>
     <string name="debug_layout">Show layout bounds</string>
-    <string name="debug_layout_desc">Show clip bounds, margins, etc.</string>
+    <string name="debug_layout_desc">Show clip bounds, margins, etc</string>
     <string name="track_frame_time">Profile HWUI rendering</string>
     <string name="track_frame_time_desc">On screen as bars</string>
     <string name="developer_options_disabled_warning">Please enable developer options first</string>
