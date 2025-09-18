@@ -2,7 +2,6 @@
 <resources>
     <!-- translators -->
     <string name="translators">Алексей</string>
-
     <!-- base -->
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
@@ -45,7 +44,6 @@
     <string name="additional_metadata">Дополнительные метаданные</string>
     <string name="post">Поместить</string>
     <string name="native_text">Родной</string>
-
     <!-- app -->
     <string name="need_permission_what">[%S] разрешение должно быть предоставлено этому приложению</string>
     <string name="need_permission_root">[ROOT] разрешение должно быть предоставлено этому приложению</string>
@@ -70,17 +68,15 @@
     <string name="dark_mode">Темный режим</string>
     <string name="debug_input">Входные настройки</string>
     <string name="debug_drawing">Настройки чертежа</string>
-
+    <string name="debug_monitoring">Мониторинг</string>
     <!-- dialog -->
     <string name="whether_or_not">Уверены, что хотите %s?</string>
     <string name="double_confirmation">Двойное подтверждение</string>
     <string name="loading">Загрузка ...</string>
-
     <!-- crash -->
     <string name="app_crashed">Сбой приложения</string>
     <string name="submit_logs">Пожалуйста, отправьте журналы</string>
     <string name="copy_logs">Копировать журналы</string>
-
     <!-- function -->
     <string name="clean_dexkit_cache">Очистить кеш Dexkit</string>
     <string name="experimental_function">Экспериментальная функция</string>
@@ -91,6 +87,7 @@
     <string name="default_apps">Приложения по умолчанию</string>
     <string name="running_services">Управление услугами</string>
     <string name="safe_mode">Безопасный режим</string>
+    <string name="unknown_exception">未知异常</string>
     <string name="active_safe_mode">Активный безопасный режим</string>
     <string name="safe_mode_on_desc">Текущее приложение позволяет вручную включить безопасный режим, хотите ли вы включить его? При включении и перезапуске все функции отключаются.</string>
     <string name="safe_mode_off_desc">Приложение находится в безопасном режиме, и все функции отключены, хотите ли вы отключить безопасный режим?</string>
@@ -102,7 +99,7 @@
     <string name="safe_mode_focus_report">Уведомлять в виде всплывающего уведомления</string>
     <string name="safe_mode_focus_report_desc">Если эта функция включена, системные настройки будут перезаписаны, и вы должны убедиться, что для области [SystemUI] установлен флажок </string>
     <string name="manage_hook_theme">Менеджер тем</string>
-    <string name="manage_hook_theme_require">Чтобы использовать пользовательскую тему, у вас должна быть установлена версия LSPosed >= 7334!</string>
+    <string name="manage_hook_theme_require">Чтобы использовать пользовательскую тему, у вас должна быть установлена версия LSPosed &gt;= 7334!</string>
     <string name="import_theme">Импоровать тему</string>
     <string name="invalid_theme_package">Неверный пакет темы</string>
     <string name="invalid_theme_slug">Неверный идентификатор темы</string>
@@ -123,7 +120,6 @@
     <string name="not_in_scope">Не добавлено в область применения данного модуля</string>
     <string name="request_scope">Облласть запроса</string>
     <string name="requesting">Запрос…</string>
-
     <!-- overview -->
     <string name="module_version">Версия модуля</string>
     <string name="module_version_type">Тип версии</string>
@@ -140,7 +136,6 @@
     <string name="system_apps">Системные приложения</string>
     <string name="sort">Сортировка</string>
     <string name="reverse_sort">Обратная сортировка</string>
-
     <!-- preference -->
     <string name="preference">Предпочтение</string>
     <string name="default_option">По умолчанию</string>
@@ -168,10 +163,9 @@
     <string name="layout_optimization">Оптимизация макета</string>
     <string name="trigger_threshold">Порог срабатывания </string>
     <string name="max_trigger_threshold">Максимальный порог срабатывания </string>
-
     <!-- app settings -->
-    <string name="follow_system">Как в системе</string>
     <string name="language">Язык</string>
+    <string name="follow_system">Как в системе</string>
     <string name="translation_contributors">Авторы перевода</string>
     <string name="theme">Тема</string>
     <string name="dark_theme">Темная тема</string>
@@ -206,11 +200,9 @@
     <string name="auto_generated">Автоматически сгенерировано</string>
     <string name="special_thanks">Особая благодарность</string>
     <string name="view_in_browser">Посмотреть в браузере</string>
-
     <!-- android -->
     <string name="notification">Уведомление</string>
     <string name="device_global_settings">Глобальные настройки</string>
-
     <!-- system ui -->
     <string name="header_layout">Макет заголовка</string>
     <string name="landscape_display">Ландшафтный дисплей </string>
@@ -228,11 +220,17 @@
     <string name="force_overlap_im_icon">Оптимизация значка источника</string>
     <string name="force_overlap_im_icon_desc">Принудительно отображать значок перекрытия</string>
     <string name="auto_expand_notification">Автоматическое расширение уведомлений</string>
+    <string name="auto_expand_notification_whitelist">自动展开通知白名单</string>
+    <string name="auto_hide_expanded_notification">自动隐藏展开的通知</string>
+    <string name="auto_hide_expanded_notification_delay">隐藏延时</string>
     <string name="only_native_notification_style">Применимо только к родному стилю уведомлений</string>
     <string name="focus_notification">Белый уведомлений</string>
+    <string name="focus_notification_desc">同样适用于 OS3 超级岛</string>
+    <string name="focus_notification_tip">焦点通知主要用于显示和操控来电、导航、音乐播放等实时活动，方便不切屏快速操作，它是高优先级交互设计，若滥用会过度干扰使用、破坏操作体验，因此需严格限制用途和展示时长。此白名单功能，仅赋予应用发送焦点通知的权限，但应用需自行开发适配相关功能，才能实际展示焦点通知。</string>
     <string name="focus_notification_test">Тест Белый уведомлений</string>
     <string name="focus_notification_whitelist">Белый список уведомлений</string>
     <string name="focus_notification_whitelist_desc">Добавляйте приложения на официальной основе, используйте пользовательский формат уведомлений, чтобы выделить важную информацию</string>
+    <string name="dynamic_island">超级岛</string>
     <string name="show_weather_city">Показать город</string>
     <string name="control_center">Центр управления</string>
     <string name="hide_carrier">Скрыть носитель</string>
@@ -251,12 +249,18 @@
     <string name="only_portrait_mode">Поддержка только портретного режима</string>
     <string name="left_button_group_extra_bottom_margin">Левая группа кнопок с дополнительным нижним отступом</string>
     <string name="right_button_group_extra_bottom_margin">Группа правых кнопок с дополнительным нижним отступом</string>
+    <string name="button_group_adaptive">按钮组自适应</string>
     <string name="button_size">Размер кнопки</string>
     <string name="button_spacing">Расстояние между кнопками</string>
     <string name="tile_management">Управление плитками</string>
     <string name="five_g_switch">5G переключатель</string>
     <string name="five_g_switch_desc">Добавить переключатель в плитку мобильных данных для управления типом сети</string>
+    <string name="network_type_switch">网络类型选择</string>
+    <string name="network_type_switch_desc">在移动数据磁贴中添加网络类型选择(仅支持高通设备)</string>
     <string name="network_settings">Настройки сети</string>
+    <string name="only_two_g">仅 2G 网络</string>
+    <string name="prefer_three_g">3G 网络优先</string>
+    <string name="prefer_four_g">4G 网络优先</string>
     <string name="prefer_five_g">Предпочтительно 5G</string>
     <string name="five_g">5G</string>
     <string name="lsposed_tile">lsposed плитка быстрого доступа</string>
@@ -264,12 +268,27 @@
     <string name="sunlight_mode">Режим солнечного света</string>
     <string name="invisible_mode">Инкогнито</string>
     <string name="developer_options">Варианты разработчика</string>
+    <string name="show_touches">显示点按操作反馈</string>
+    <string name="show_touches_desc">显示点按操作的视觉反馈</string>
+    <string name="pointer_location">指针位置</string>
+    <string name="pointer_location_desc">屏幕叠加层显示当前触摸点坐标</string>
+    <string name="debug_layout">显示布局边界</string>
+    <string name="debug_layout_desc">显示剪辑边界、边距等</string>
+    <string name="track_frame_time">HWUI 呈现模式分析</string>
+    <string name="track_frame_time_desc">在屏幕上显示为条形图</string>
     <string name="developer_options_disabled_warning">Пожалуйста, сначала включите опции для разработчиков</string>
     <string name="record_mode">Режим записи</string>
     <string name="use_with_advanced_textures">Рекомендуется использовать его с расширенными текстурами</string>
+    <string name="slider_show_percentage">滑块显示百分比值</string>
     <string name="brightness_slider_show_percentage">Слайдер яркости отображает процентное значение</string>
     <string name="volume_slider_show_percentage">Слайдер громкости отображает процентное значение</string>
     <string name="hide_edit_button">Скрыть кнопку редактирования по умолчанию</string>
+    <string name="show_lyric">歌词显示</string>
+    <string name="show_lyric_desc">需搭配 SuperLyric(com.hchen.superlyric)使用</string>
+    <string name="attach_media_panel_artist">替换媒体面板艺术家</string>
+    <string name="attach_date_time">替换日期时间</string>
+    <string name="volume_dialog">全局音量条</string>
+    <string name="hide_ringer_mode_button">隐藏静音模式和勿扰模式按钮</string>
     <string name="lockscreen">Экран блокировки</string>
     <string name="show_carrier_under_keyguard">Показать оператора, когда устройство заблокировано</string>
     <string name="carrier_text_view_max_width">Ширина текста оператора</string>
@@ -314,15 +333,20 @@
     <string name="default_style">Стиль по умолчанию</string>
     <string name="native_style">Родной стиль</string>
     <string name="module_built_in_style1">Встроенный стиль 1 модуля</string>
-
     <!-- settings -->
-    <string name="fix_jump_draw_overlay_details">Исправлено неправильное переключение разрешения "Отображать поверх других приложений"</string>
+    <string name="fix_jump_draw_overlay_details">Исправлено неправильное переключение разрешения \"Отображать поверх других приложений\"</string>
     <string name="show_notification_channel_id">На странице категории уведомлений отображается ID канала</string>
     <string name="channel_id">ID канала</string>
+    <string name="status_bar_icon_display_customization">状态栏图标显示自定义</string>
+    <string name="status_bar_icon_display_customization_desc">增加更多图标显示/隐藏</string>
     <string name="device_bg_effect_follow_hook_theme">Фоновый эффект страницы устройства в соответствии с темой hook</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_device_battery">蓝牙设备电量</string>
     <string name="airplane_mode">Режим полета</string>
     <string name="no_sim_card">Нет SIM-карты</string>
-
+    <string name="mobile">移动数据</string>
+    <string name="mobile_1">卡 1 信号</string>
+    <string name="mobile_2">卡 2 信号</string>
     <!-- home -->
     <string name="drawer">Ящик</string>
     <string name="layout">Макет</string>
@@ -331,7 +355,7 @@
     <string name="unlock_layout_grids">Разблокировать сетки макета</string>
     <string name="unlock_layout_grids_desc">Если вы не отрегулируете его должным образом, вы можете получить растянутую большую папку</string>
     <string name="page_indicator">Индикатор страницы</string>
-    <string name="remove_market_search">Удалить поиск \ "xx \" в советах getApps</string>
+    <string name="remove_market_search">Удалить поиск \ \"xx \" в советах getApps</string>
     <string name="dock">Док</string>
     <string name="search_box">Окно поиска</string>
     <string name="unlock_dock_icon_num_limit">Ограничение на количество разблокированных иконок</string>
@@ -349,7 +373,6 @@
     <string name="hm_grid">H-M</string>
     <string name="vm_grid">V-M</string>
     <string name="widget_mi_blur_follow_hook_theme">Тема размытия при переходе к текстурам</string>
-
     <!-- security center -->
     <string name="simplified_home_fragment">Упрощение домашнего фрагмента Security Center</string>
     <string name="simplified_home_fragment_desc">Удалить карточку с рекомендациями функций</string>
@@ -367,12 +390,13 @@
     <string name="manage_more_permission_desc">Может управлять большим количеством разрешений на странице разрешений, например, Специальные разрешения</string>
     <string name="special_permissions">Специальные разрешения</string>
     <string name="manage_external_storage">Доступ ко всем файлам</string>
-    <string name="write_system_settings">Изменение системных настроек</string>
     <string name="draw_overlay">Отображение поверх других приложений</string>
+    <string name="write_system_settings">Изменение системных настроек</string>
     <string name="install_other_apps">Установка неизвестных приложений</string>
+    <string name="full_screen_intent">全屏通知</string>
     <string name="open_by_default">Открыто по умолчанию</string>
     <string name="open_by_default_preference">Заменить на очистить настройки по умолчанию</string>
-    <string name="open_by_default_preference_desc">Заменить на "Открыть по умолчанию"</string>
+    <string name="open_by_default_preference_desc">Заменить на \"Открыть по умолчанию\"</string>
     <string name="app_detail_show_more_info">Показать больше информации</string>
     <string name="version_code">Код версии</string>
     <string name="uid">UID</string>
@@ -382,7 +406,6 @@
     <string name="internal_data_dir">Каталог внутренних данных </string>
     <string name="protected_internal_data_dir">Защищенный каталог данных внутреннего хранилища</string>
     <string name="external_data_dir">Каталог данных внешнего хранилища</string>
-
     <!-- downloads -->
     <string name="xlDownload_folder">Управление папкой .xldownload</string>
     <string name="xlDownload_folder_desc">Эта папка будет перемещена в /sdcard /скачать</string>
