@@ -68,6 +68,9 @@
     <string name="apps_that_not_turned_on">Apps that aren\'t turned on</string>
     <string name="light_mode">Light mode</string>
     <string name="dark_mode">Dark mode</string>
+    <string name="debug_input">Input settings</string>
+    <string name="debug_drawing">Drawing settings</string>
+    <string name="debug_monitoring">Monitoring settings</string>
 
     <!-- dialog -->
     <string name="whether_or_not">Sure want to %s?</string>
@@ -89,6 +92,7 @@
     <string name="default_apps">Default apps</string>
     <string name="running_services">Running services</string>
     <string name="safe_mode">Safe mode</string>
+    <string name="unknown_exception">Unknown exception</string>
     <string name="active_safe_mode">Active Safe Mode</string>
     <string name="safe_mode_on_desc">The current app allows manual Safe Mode, do you want to turn on? When scopes are turned on and restarted, all features are disabled.</string>
     <string name="safe_mode_off_desc">The app is in Safe Mode and all features are disabled, do you want to turn off the Safe Mode?</string>
@@ -150,6 +154,8 @@
     <string name="always_off">Always off</string>
     <string name="empty_preference">The preference is empty</string>
     <string name="parameter_settings">Parameter Settings</string>
+    <string name="phone_settings">Phone Settings</string>
+    <string name="tablet_settings">Tablet Settings</string>
     <string name="standardized_storage">Standardized Storage</string>
     <string name="advanced">Advanced</string>
     <string name="height">height</string>
@@ -197,7 +203,6 @@
     <string name="hide_app_icon">Hide app icon</string>
     <string name="hide_app_icon_desc">You can still open the app in Xposed manager</string>
     <string name="log_level">Log level</string>
-    <string name="log_level_desc">Debug is for debugging use only, not for daily use</string>
     <string name="license">License</string>
     <string name="in_no_particular_order">In no particular order</string>
     <string name="auto_generated">Auto Generated</string>
@@ -207,12 +212,6 @@
     <!-- android -->
     <string name="notification">Notification</string>
     <string name="device_global_settings">Global settings</string>
-    <string name="native_notification">Native notification</string>
-    <string name="expand_button_icon_customization">Expand button icon customization</string>
-    <string name="transparent_background">Transparent background</string>
-    <string name="transparent_button_background">Transparent button background</string>
-    <string name="layout_margin">Layout margin</string>
-    <string name="right_icon_size">Large icon size</string>
 
     <!-- system ui -->
     <string name="header_layout">Header layout</string>
@@ -220,16 +219,28 @@
     <string name="notification_center">Notification Center</string>
     <string name="show_weather">Show weather</string>
     <string name="miui_notification_style">MIUI notification style</string>
+    <string name="native_notification_style">Native notification style</string>
+    <string name="expand_button_icon_customization">Expand button icon customization</string>
+    <string name="transparent_background">Transparent background</string>
+    <string name="transparent_button_background">Transparent button background</string>
+    <string name="layout_margin">Layout margin</string>
+    <string name="right_icon_size">Large icon size</string>
     <string name="mini_window_bar">Mini window bar</string>
     <string name="icon_centered">Icon centered</string>
     <string name="force_overlap_im_icon">Source icon optimization</string>
     <string name="force_overlap_im_icon_desc">Force show overlap-icon</string>
-    <string name="auto_expand_notifications">Auto expand notifications</string>
+    <string name="auto_expand_notification">Auto expand notification</string>
+    <string name="auto_expand_notification_whitelist">Whitelist of auto expand notification</string>
+    <string name="auto_hide_expanded_notification">Auto hide expanded notification</string>
+    <string name="auto_hide_expanded_notification_delay">Hide after a delay</string>
     <string name="only_native_notification_style">Only applicable to native notification style</string>
     <string name="focus_notification">Notification spotlight</string>
+    <string name="focus_notification_desc">The same applies to Dynamic Island of OS3</string>
+    <string name="focus_notification_tip">The Notification spotlight is mainly used to display and control real-time activities such as incoming calls, navigation, and music playback, allowing quick operations without switching screens. As a high-priority interactive design, it will cause excessive interference to usage and damage the operation experience if misused, so its usage scenarios and display duration must be strictly restricted. Currently, a whitelist function has been added, which can grant apps the permission to send notification spotlight. However, apps need to independently develop and adapt the relevant functions to actually display notification spotlight.</string>
     <string name="focus_notification_test">Notification spotlight test</string>
-    <string name="focus_notification_whitelist">Notification spotlight whitelist</string>
+    <string name="focus_notification_whitelist">Whitelist of notification spotlight whitelist</string>
     <string name="focus_notification_whitelist_desc">Add apps on the official basis, use custom notification format to highlight important info</string>
+    <string name="dynamic_island">Dynamic Island</string>
     <string name="show_weather_city">Show city</string>
     <string name="control_center">Control Center</string>
     <string name="hide_carrier">Hide carrier</string>
@@ -254,18 +265,36 @@
     <string name="tile_management">Tile management</string>
     <string name="five_g_switch">5G Switch</string>
     <string name="five_g_switch_desc">Add a switch in the mobile data tile to control network type</string>
+    <string name="network_type_switch">Preferred network type</string>
+    <string name="network_type_switch_desc">Add a list in the mobile data tile to control network type(Only Qualcomm devices are supported)</string>
     <string name="network_settings">Network settings</string>
+    <string name="only_two_g">Only 2G</string>
+    <string name="prefer_three_g">Prefer 3G</string>
+    <string name="prefer_four_g">Prefer 4G</string>
     <string name="prefer_five_g">Prefer 5G</string>
-    <string name="lsposed_tile">lsposed shortcut tile</string>
+    <string name="five_g">5G</string>
+    <string name="lsposed_tile">LSPosed shortcut tile</string>
+    <string name="oshape_tile">OShape shortcut tile</string>
     <string name="sunlight_mode">Sunlight mode</string>
     <string name="invisible_mode">Incognito</string>
+    <string name="developer_options">Developer options</string>
+    <string name="developer_options_disabled_warning">Please enable developer options first</string>
+    <string name="show_touches">Show taps</string>
+    <string name="show_touches_desc">Show visual feedback for taps</string>
+    <string name="pointer_location">Pointer location</string>
+    <string name="pointer_location_desc">Show touch coordinates</string>
+    <string name="debug_layout">Show layout bounds</string>
+    <string name="debug_layout_desc">Show clip bounds, margins, etc.</string>
+    <string name="track_frame_time">Profile HWUI rendering</string>
+    <string name="track_frame_time_desc">On screen as bars</string>
     <string name="record_mode">Record mode</string>
     <string name="use_with_advanced_textures">Recommended to use it with advanced textures</string>
+    <string name="slider_show_percentage">Slider displays the percentage value</string>
     <string name="brightness_slider_show_percentage">Brightness slider displays the percentage value</string>
     <string name="volume_slider_show_percentage">Volume slider displays the percentage value</string>
     <string name="hide_edit_button">Hide default edit button</string>
     <string name="show_lyric">Displays the lyrics</string>
-    <string name="show_lyric_desc">It must be used with LyricGetter(cn.lyric.getter)</string>
+    <string name="show_lyric_desc">It must be used with SuperLyric(com.hchen.superlyric)</string>
     <string name="attach_media_panel_artist">Replace the artist in the media panel</string>
     <string name="attach_date_time">Replace the date time</string>
     <string name="volume_dialog">Global volume dialog</string>
@@ -319,7 +348,16 @@
     <string name="fix_jump_draw_overlay_details">Fixed granting the "Display over other apps" permission not jumping correctly</string>
     <string name="show_notification_channel_id">Notification category page displays channel ID</string>
     <string name="channel_id">Channel ID</string>
+    <string name="status_bar_icon_display_customization">Status bar icon display customization</string>
+    <string name="status_bar_icon_display_customization_desc">Added more icons to show/hide</string>
     <string name="device_bg_effect_follow_hook_theme">Device page background effect follow hook theme</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_device_battery">Bluetooth device battery</string>
+    <string name="airplane_mode">Airplane mode</string>
+    <string name="no_sim_card">No SIM card</string>
+    <string name="mobile">Mobile</string>
+    <string name="mobile_1">Card 1 signal</string>
+    <string name="mobile_2">Card 2 signal</string>
 
     <!-- home -->
     <string name="drawer">Drawer</string>
@@ -365,9 +403,10 @@
     <string name="manage_more_permission_desc">Can manage more permissions on the Permissions page, e.g. Special permissions</string>
     <string name="special_permissions">Special permissions</string>
     <string name="manage_external_storage">All files access</string>
+    <string name="draw_overlay">Display over other apps</string>
     <string name="write_system_settings">Modify system settings</string>
     <string name="install_other_apps">Install unknown apps</string>
-    <string name="draw_overlay">Display over other apps</string>
+    <string name="full_screen_intent">Full screen notifications</string>
     <string name="open_by_default">Open by default</string>
     <string name="open_by_default_preference">Replace Clear defaults</string>
     <string name="open_by_default_preference_desc">Replace with "Open by default"</string>

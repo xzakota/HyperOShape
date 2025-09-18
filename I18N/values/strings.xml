@@ -4,6 +4,7 @@
     <string name="translators" translatable="false">null</string>
 
     <!-- base -->
+    <string name="empty" translatable="false" />
     <string name="back">返回</string>
     <string name="menu">菜单</string>
     <string name="other">其他</string>
@@ -68,6 +69,9 @@
     <string name="apps_that_not_turned_on">未开启的应用</string>
     <string name="light_mode">浅色模式</string>
     <string name="dark_mode">深色模式</string>
+    <string name="debug_input">输入</string>
+    <string name="debug_drawing">绘图</string>
+    <string name="debug_monitoring">监控</string>
 
     <!-- dialog -->
     <string name="whether_or_not">是否%s？</string>
@@ -82,13 +86,14 @@
     <!-- function -->
     <string name="clean_dexkit_cache">清理 DexKit 缓存</string>
     <string name="experimental_function">实验性功能</string>
-    <string name="safe_mode">安全模式</string>
     <string name="additional_function">附加功能</string>
     <string name="hidden_features">隐藏特性</string>
     <string name="reduce_bright_colors">极暗模式</string>
     <string name="opt_reduce_bright_colors">极暗模式磁贴优化</string>
     <string name="default_apps">默认应用</string>
     <string name="running_services">正在运行的服务</string>
+    <string name="safe_mode">安全模式</string>
+    <string name="unknown_exception">未知异常</string>
     <string name="active_safe_mode">主动安全模式</string>
     <string name="safe_mode_on_desc">当前应用允许手动安全模式，是否开启？开启并重启作用域后所有功能都将禁用。</string>
     <string name="safe_mode_off_desc">当前应用已开启安全模式，所有功能都已禁用，是否关闭安全模式？</string>
@@ -150,6 +155,8 @@
     <string name="always_off">总是关闭</string>
     <string name="empty_preference">首选项为空</string>
     <string name="parameter_settings">参数设置</string>
+    <string name="phone_settings">手机端设置</string>
+    <string name="tablet_settings">平板端设置</string>
     <string name="standardized_storage">标准化存储</string>
     <string name="advanced">高级</string>
     <string name="height">高度</string>
@@ -197,7 +204,6 @@
     <string name="hide_app_icon">隐藏桌面图标</string>
     <string name="hide_app_icon_desc">你仍然可以在 Xposed 管理器中打开此应用</string>
     <string name="log_level">日志输出等级</string>
-    <string name="log_level_desc">Debug 仅限调试使用，请勿日常使用</string>
     <string name="license">许可</string>
     <string name="in_no_particular_order">排名不分先后</string>
     <string name="auto_generated">自动生成</string>
@@ -207,12 +213,6 @@
     <!-- android -->
     <string name="notification">通知</string>
     <string name="device_global_settings">全局设置</string>
-    <string name="native_notification">原生通知</string>
-    <string name="expand_button_icon_customization">展开按钮图标自定义</string>
-    <string name="transparent_background">透明背景</string>
-    <string name="transparent_button_background">按钮透明背景</string>
-    <string name="layout_margin">布局边距</string>
-    <string name="right_icon_size">大图标大小</string>
 
     <!-- system ui -->
     <string name="header_layout">顶栏布局</string>
@@ -220,16 +220,28 @@
     <string name="notification_center">通知中心</string>
     <string name="show_weather">显示天气</string>
     <string name="miui_notification_style">经典通知样式</string>
+    <string name="native_notification_style">原生通知样式</string>
+    <string name="expand_button_icon_customization">展开按钮图标自定义</string>
+    <string name="transparent_background">透明背景</string>
+    <string name="transparent_button_background">按钮透明背景</string>
+    <string name="layout_margin">布局边距</string>
+    <string name="right_icon_size">大图标大小</string>
     <string name="mini_window_bar">小窗提示线</string>
     <string name="icon_centered">图标居中</string>
     <string name="force_overlap_im_icon">来源图标优化</string>
     <string name="force_overlap_im_icon_desc">强制显示叠加图标</string>
-    <string name="auto_expand_notifications">自动展开通知</string>
+    <string name="auto_expand_notification">自动展开通知</string>
+    <string name="auto_expand_notification_whitelist">自动展开通知白名单</string>
+    <string name="auto_hide_expanded_notification">自动隐藏展开的通知</string>
+    <string name="auto_hide_expanded_notification_delay">隐藏延时</string>
     <string name="only_native_notification_style">仅适用原生通知样式</string>
     <string name="focus_notification">焦点通知</string>
+    <string name="focus_notification_desc">同样适用于 OS3 超级岛</string>
+    <string name="focus_notification_tip">焦点通知主要用于显示和操控来电、导航、音乐播放等实时活动，方便不切屏快速操作，它是高优先级交互设计，若滥用会过度干扰使用、破坏操作体验，因此需严格限制用途和展示时长。此白名单功能，仅赋予应用发送焦点通知的权限，但应用需自行开发适配相关功能，才能实际展示焦点通知。</string>
     <string name="focus_notification_test">焦点通知测试</string>
     <string name="focus_notification_whitelist">焦点通知白名单</string>
     <string name="focus_notification_whitelist_desc">在官方基础上增加应用，将关键通知以特殊样式展示</string>
+    <string name="dynamic_island">超级岛</string>
     <string name="show_weather_city">显示所在城市</string>
     <string name="control_center">控制中心</string>
     <string name="hide_carrier">隐藏运营商名称</string>
@@ -254,18 +266,36 @@
     <string name="tile_management">磁贴管理</string>
     <string name="five_g_switch">5G 网络开关</string>
     <string name="five_g_switch_desc">在移动数据磁贴中添加 5G 开关</string>
+    <string name="network_type_switch">网络类型选择</string>
+    <string name="network_type_switch_desc">在移动数据磁贴中添加网络类型选择(仅支持高通设备)</string>
     <string name="network_settings">网络设置</string>
+    <string name="only_two_g">仅 2G 网络</string>
+    <string name="prefer_three_g">3G 网络优先</string>
+    <string name="prefer_four_g">4G 网络优先</string>
     <string name="prefer_five_g">5G 网络优先</string>
+    <string name="five_g">启用 5G 网络</string>
     <string name="lsposed_tile">LSPosed 快捷磁贴</string>
+    <string name="oshape_tile">OShape 快捷磁贴</string>
     <string name="sunlight_mode">阳光模式</string>
     <string name="invisible_mode">隐身模式</string>
+    <string name="developer_options">开发者选项</string>
+    <string name="show_touches">显示点按操作反馈</string>
+    <string name="show_touches_desc">显示点按操作的视觉反馈</string>
+    <string name="pointer_location">指针位置</string>
+    <string name="pointer_location_desc">屏幕叠加层显示当前触摸点坐标</string>
+    <string name="debug_layout">显示布局边界</string>
+    <string name="debug_layout_desc">显示剪辑边界、边距等</string>
+    <string name="track_frame_time">HWUI 呈现模式分析</string>
+    <string name="track_frame_time_desc">在屏幕上显示为条形图</string>
+    <string name="developer_options_disabled_warning">请先启用开发者选项</string>
     <string name="record_mode">记忆模式</string>
     <string name="use_with_advanced_textures">推荐搭配高级材质使用</string>
+    <string name="slider_show_percentage">滑块显示百分比值</string>
     <string name="brightness_slider_show_percentage">亮度滑块显示百分比值</string>
     <string name="volume_slider_show_percentage">音量滑块(包含全局侧边栏)显示百分比值</string>
     <string name="hide_edit_button">隐藏默认编辑按钮</string>
     <string name="show_lyric">歌词显示</string>
-    <string name="show_lyric_desc">需搭配酒域(cn.lyric.getter)使用</string>
+    <string name="show_lyric_desc">需搭配 SuperLyric(com.hchen.superlyric)使用</string>
     <string name="attach_media_panel_artist">替换媒体面板艺术家</string>
     <string name="attach_date_time">替换日期时间</string>
     <string name="volume_dialog">全局音量条</string>
@@ -319,7 +349,18 @@
     <string name="fix_jump_draw_overlay_details">修正跳转授予“显示在其他应用的上层”权限</string>
     <string name="show_notification_channel_id">通知类别页显示渠道 ID</string>
     <string name="channel_id">渠道 ID</string>
+    <string name="status_bar_icon_display_customization">状态栏图标显示自定义</string>
+    <string name="status_bar_icon_display_customization_desc">增加更多图标显示/隐藏</string>
     <string name="device_bg_effect_follow_hook_theme">设备页背景动效跟随资源主题</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_device_battery">蓝牙设备电量</string>
+    <string name="nfc" translatable="false">NFC</string>
+    <string name="airplane_mode">飞行模式</string>
+    <string name="no_sim_card">无 SIM 卡</string>
+    <string name="mobile">移动数据</string>
+    <string name="mobile_1">卡 1 信号</string>
+    <string name="mobile_2">卡 2 信号</string>
+    <string name="wifi" translatable="false">WiFi</string>
 
     <!-- home -->
     <string name="drawer">抽屉</string>
@@ -365,9 +406,10 @@
     <string name="manage_more_permission_desc">在权限管理页面能够管理更多权限，例如 特殊权限</string>
     <string name="special_permissions">特殊权限</string>
     <string name="manage_external_storage">所有文件访问权限</string>
+    <string name="draw_overlay">显示在其他应用的上层</string>
     <string name="write_system_settings">修改系统设置</string>
     <string name="install_other_apps">安装未知应用</string>
-    <string name="draw_overlay">显示在其他应用的上层</string>
+    <string name="full_screen_intent">全屏通知</string>
     <string name="open_by_default">默认打开</string>
     <string name="open_by_default_preference">替换消除默认操作首选项</string>
     <string name="open_by_default_preference_desc">替换为“默认打开”首选项</string>

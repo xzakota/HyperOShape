@@ -68,6 +68,8 @@
     <string name="apps_that_not_turned_on">Отлюченные приложения</string>
     <string name="light_mode">Светлый режим</string>
     <string name="dark_mode">Темный режим</string>
+    <string name="debug_input">Входные настройки</string>
+    <string name="debug_drawing">Настройки чертежа</string>
 
     <!-- dialog -->
     <string name="whether_or_not">Уверены, что хотите %s?</string>
@@ -130,7 +132,7 @@
     <string name="software_name">Название приложения</string>
     <string name="package_name">Имя пакета</string>
     <string name="build_time">Время сборки</string>
-    <string name="system_version">Версия системы </string>
+    <string name="system_version">Версия системы</string>
     <string name="system_framework">Структура сборки</string>
     <string name="more_info">Дополнительная информация</string>
     <string name="debug_details">Подробности отладки</string>
@@ -150,6 +152,8 @@
     <string name="always_off">Всегда откл</string>
     <string name="empty_preference">Предпочтение пустое</string>
     <string name="parameter_settings">Настройки параметров</string>
+    <string name="phone_settings">Настройки мобильного телефона</string>
+    <string name="tablet_settings">Настройки планшета</string>
     <string name="standardized_storage">Стандартное хранилище </string>
     <string name="advanced">Расширенные </string>
     <string name="height">Высота</string>
@@ -197,7 +201,6 @@
     <string name="hide_app_icon">Скрыть значок приложения</string>
     <string name="hide_app_icon_desc">Вы все еще можете открыть приложение в XPosed Manager</string>
     <string name="log_level">Уровень журнала</string>
-    <string name="log_level_desc">Отладка предназначена только для отладки использования, а не для ежедневного использования</string>
     <string name="license">Лицензия</string>
     <string name="in_no_particular_order">В произвольном порядке</string>
     <string name="auto_generated">Автоматически сгенерировано</string>
@@ -207,12 +210,6 @@
     <!-- android -->
     <string name="notification">Уведомление</string>
     <string name="device_global_settings">Глобальные настройки</string>
-    <string name="native_notification">Нативное уведомление</string>
-    <string name="expand_button_icon_customization">Настройка значка кнопки расширения</string>
-    <string name="transparent_background">Прозрачный фон</string>
-    <string name="transparent_button_background">Прозрачный фон кнопки</string>
-    <string name="layout_margin">Поле макета</string>
-    <string name="right_icon_size">Большой размер иконки</string>
 
     <!-- system ui -->
     <string name="header_layout">Макет заголовка</string>
@@ -220,11 +217,17 @@
     <string name="notification_center">Центр уведомлений</string>
     <string name="show_weather">Показать погоду</string>
     <string name="miui_notification_style">Стиль уведомлений MIUI</string>
+    <string name="native_notification_style">Стиль уведомлений Нативный</string>
+    <string name="expand_button_icon_customization">Настройка значка кнопки расширения</string>
+    <string name="transparent_background">Прозрачный фон</string>
+    <string name="transparent_button_background">Прозрачный фон кнопки</string>
+    <string name="layout_margin">Поле макета</string>
+    <string name="right_icon_size">Большой размер иконки</string>
     <string name="mini_window_bar">Мини панель</string>
     <string name="icon_centered">Значок по центру</string>
     <string name="force_overlap_im_icon">Оптимизация значка источника</string>
     <string name="force_overlap_im_icon_desc">Принудительно отображать значок перекрытия</string>
-    <string name="auto_expand_notifications">Автоматическое расширение уведомлений</string>
+    <string name="auto_expand_notification">Автоматическое расширение уведомлений</string>
     <string name="only_native_notification_style">Применимо только к родному стилю уведомлений</string>
     <string name="focus_notification">Белый уведомлений</string>
     <string name="focus_notification_test">Тест Белый уведомлений</string>
@@ -255,9 +258,13 @@
     <string name="five_g_switch_desc">Добавить переключатель в плитку мобильных данных для управления типом сети</string>
     <string name="network_settings">Настройки сети</string>
     <string name="prefer_five_g">Предпочтительно 5G</string>
-    <string name="lsposed_tile">lsposed плитка быстрого доступа </string>
+    <string name="five_g">5G</string>
+    <string name="lsposed_tile">lsposed плитка быстрого доступа</string>
+    <string name="oshape_tile">OShape плитка быстрого доступа</string>
     <string name="sunlight_mode">Режим солнечного света</string>
     <string name="invisible_mode">Инкогнито</string>
+    <string name="developer_options">Варианты разработчика</string>
+    <string name="developer_options_disabled_warning">Пожалуйста, сначала включите опции для разработчиков</string>
     <string name="record_mode">Режим записи</string>
     <string name="use_with_advanced_textures">Рекомендуется использовать его с расширенными текстурами</string>
     <string name="brightness_slider_show_percentage">Слайдер яркости отображает процентное значение</string>
@@ -313,6 +320,8 @@
     <string name="show_notification_channel_id">На странице категории уведомлений отображается ID канала</string>
     <string name="channel_id">ID канала</string>
     <string name="device_bg_effect_follow_hook_theme">Фоновый эффект страницы устройства в соответствии с темой hook</string>
+    <string name="airplane_mode">Режим полета</string>
+    <string name="no_sim_card">Нет SIM-карты</string>
 
     <!-- home -->
     <string name="drawer">Ящик</string>
@@ -359,8 +368,8 @@
     <string name="special_permissions">Специальные разрешения</string>
     <string name="manage_external_storage">Доступ ко всем файлам</string>
     <string name="write_system_settings">Изменение системных настроек</string>
-    <string name="install_other_apps">Установка неизвестных приложений</string>
     <string name="draw_overlay">Отображение поверх других приложений</string>
+    <string name="install_other_apps">Установка неизвестных приложений</string>
     <string name="open_by_default">Открыто по умолчанию</string>
     <string name="open_by_default_preference">Заменить на очистить настройки по умолчанию</string>
     <string name="open_by_default_preference_desc">Заменить на "Открыть по умолчанию"</string>
