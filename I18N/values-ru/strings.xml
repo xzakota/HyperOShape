@@ -6,8 +6,8 @@
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
     <string name="other">Другое</string>
-    <string name="more">Дополнительно </string>
-    <string name="icon">Значок </string>
+    <string name="more">Дополнительно</string>
+    <string name="icon">Иконка</string>
     <string name="enable">Вкл.</string>
     <string name="disable">Откл.</string>
     <string name="disabled">Откл.</string>
@@ -25,11 +25,11 @@
     <string name="settings">Настройки</string>
     <string name="restart">Перезапустить</string>
     <string name="info">Информация</string>
-    <string name="log">Журнал </string>
+    <string name="log">Журнал</string>
     <string name="view">Вид</string>
     <string name="nothing">Ничего</string>
     <string name="help">Помощь</string>
-    <string name="allow">Разрешить </string>
+    <string name="allow">Разрешить</string>
     <string name="deny">Запретить</string>
     <string name="base">Основные</string>
     <string name="details">Подробности</string>
