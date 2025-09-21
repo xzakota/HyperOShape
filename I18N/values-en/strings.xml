@@ -69,6 +69,15 @@
     <string name="debug_input">Input settings</string>
     <string name="debug_drawing">Drawing settings</string>
     <string name="debug_monitoring">Monitoring settings</string>
+    <string name="about_app">
+        <![CDATA[
+            <p>Due to limited device access, time and energy, this module only supports HyperOS 2.0 (Android 15), HyperOS 3.0 (Android 16) and newer system software (e.g., system launcher, security tools)! Please do not urge for updates!</p>
+            <p>Active Safe Mode is under testing. It may crash when there are major changes to the system version. If you do not know how to fix a bricked device, please use it with extreme caution.</p>
+
+            <b>Module Author： <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
+            <b>Icon Designer： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
+        ]]>
+    </string>
     <!-- dialog -->
     <string name="whether_or_not">Sure want to %s?</string>
     <string name="double_confirmation">Double confirmation</string>
@@ -111,6 +120,7 @@
     <string name="switching_theme">switching theme, do not exit</string>
     <string name="switch_succeeded">Switch succeeded</string>
     <string name="delete_succeeded">Delete succeeded</string>
+    <string name="switch_and_apply_tip">Switch succeeded, it will take effect after restarting the scope</string>
     <string name="cannot_deleted_default_theme">The default theme cannot be deleted</string>
     <string name="cannot_deleted_active_theme">The theme in use cannot be deleted</string>
     <string name="safe_mode_report_test">Test Safe Mode notification</string>
@@ -130,6 +140,7 @@
     <string name="build_time">Build Time</string>
     <string name="system_version">System Version</string>
     <string name="system_framework">Build Framework</string>
+    <string name="always_believe_that_good_things_will_happen">Always believe that good things will happen</string>
     <string name="more_info">More Info</string>
     <string name="debug_details">Debug details</string>
     <string name="device_details">Device details</string>
