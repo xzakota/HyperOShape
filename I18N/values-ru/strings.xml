@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators">ModerNya (modernya.t.me)</string>
+    <string name="translators"><b><a href="https://modernya.t.me"> ModerNya</a></b></string>
     <!-- base -->
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
@@ -69,12 +69,12 @@
     <string name="debug_input">Входные настройки</string>
     <string name="debug_drawing">Настройки чертежа</string>
     <string name="debug_monitoring">Мониторинг</string>
-    <string name="about_app"><![CDATA[            <p>因设备、时间及精力有限，只适配 HyperOS2.0(Android 15) / HyperOS3.0(Android 16) 及较新系统软件(例 系统桌面/安全服务)！请不要催更！</p>
-            <p>主动安全模式测试中，遇到系统版本大改时可能会崩溃，不会救砖使用还请谨慎再谨慎。</p>
+    <string name="about_app"><![CDATA[<p>Из-за ограничений в оборудовании, силах и времени данная версия совместима только с HyperOS 2.0 (Android 15) / HyperOS 3.0 (Android 16) и новыми системными программами (например, Интерфейс системы, Безопасность). Пожалуйста, не настаивайте на обновлениях!<p>
+<p>Во время тестирования безопасного режима может произойти сбой при обнаружении серьёзных изменений. Используйте данный режим с осторожностью, если не знаете, как восстановить систему после сбоя.</p>
 
-            <b>软件作者： <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
-            <b>软件图标设计： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
-        ]]></string>
+<b>Автор модуля: <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
+
+<b>Дизайн значков: <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>]]></string>
     <!-- dialog -->
     <string name="whether_or_not">Уверены, что хотите %s?</string>
     <string name="double_confirmation">Двойное подтверждение</string>
@@ -105,7 +105,8 @@
     <string name="safe_mode_focus_report">Включить всплывающие уведомления</string>
     <string name="safe_mode_focus_report_desc">Если эта функция включена, системные настройки будут перезаписаны, и вы должны убедиться, что для области [SystemUI] установлен флажок </string>
     <string name="manage_hook_theme">Менеджер тем</string>
-    <string name="manage_hook_theme_require">Чтобы использовать пользовательскую тему, у вас должна быть установлена версия LSPosed &gt;= 7334!</string>
+    <string name="manage_hook_theme_require"><p>Менеджер тем необходим для изменения значков, поставляемых ИСКЛЮЧИТЕЛЬНО модулем OShape. Он не предназначен для импорта тем MTZ! </p>
+<p><a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">Инструкция по созданию тем.</a></p></string>
     <string name="import_theme">Импортировать тему</string>
     <string name="invalid_theme_package">Неверный пакет темы</string>
     <string name="invalid_theme_slug">Неверный идентификатор темы</string>
