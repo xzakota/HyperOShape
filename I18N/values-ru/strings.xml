@@ -6,8 +6,8 @@
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
     <string name="other">Другое</string>
-    <string name="more">Дополнительно </string>
-    <string name="icon">Значок </string>
+    <string name="more">Дополнительно</string>
+    <string name="icon">Иконка</string>
     <string name="enable">Вкл.</string>
     <string name="disable">Откл.</string>
     <string name="disabled">Откл.</string>
@@ -25,11 +25,11 @@
     <string name="settings">Настройки</string>
     <string name="restart">Перезапустить</string>
     <string name="info">Информация</string>
-    <string name="log">Журнал </string>
+    <string name="log">Журнал</string>
     <string name="view">Вид</string>
     <string name="nothing">Ничего</string>
     <string name="help">Помощь</string>
-    <string name="allow">Разрешить </string>
+    <string name="allow">Разрешить</string>
     <string name="deny">Запретить</string>
     <string name="base">Основные</string>
     <string name="details">Подробности</string>
@@ -69,6 +69,12 @@
     <string name="debug_input">Входные настройки</string>
     <string name="debug_drawing">Настройки чертежа</string>
     <string name="debug_monitoring">Мониторинг</string>
+    <string name="about_app"><![CDATA[            <p>因设备、时间及精力有限，只适配 HyperOS2.0(Android 15) / HyperOS3.0(Android 16) 及较新系统软件(例 系统桌面/安全服务)！请不要催更！</p>
+            <p>主动安全模式测试中，遇到系统版本大改时可能会崩溃，不会救砖使用还请谨慎再谨慎。</p>
+
+            <b>软件作者： <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
+            <b>软件图标设计： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
+        ]]></string>
     <!-- dialog -->
     <string name="whether_or_not">Уверены, что хотите %s?</string>
     <string name="double_confirmation">Двойное подтверждение</string>
@@ -85,7 +91,7 @@
     <string name="reduce_bright_colors">Дополнительное уменьшение яркости</string>
     <string name="opt_reduce_bright_colors">Оптимизация плиток при дополнительном затемнении</string>
     <string name="default_apps">Приложения по умолчанию</string>
-    <string name="running_services">Управление сервисами</string>
+    <string name="running_services">Работающие службы</string>
     <string name="safe_mode">Безопасный режим</string>
     <string name="unknown_exception">Неизвестное исключение</string>
     <string name="active_safe_mode">Активирован безопасный режим</string>
@@ -111,6 +117,7 @@
     <string name="switching_theme">Переключение темы, не выходите</string>
     <string name="switch_succeeded">Переключение завершено</string>
     <string name="delete_succeeded">Удаление завершено</string>
+    <string name="switch_and_apply_tip">Изменения вступят в силу после перезагрузки соответствующего процесса</string>
     <string name="cannot_deleted_default_theme">Тема по умолчанию не может быть удалена</string>
     <string name="cannot_deleted_active_theme">Используемая тема не может быть удалена</string>
     <string name="safe_mode_report_test">Тестирование уведомления о безопасном режиме</string>
@@ -130,6 +137,7 @@
     <string name="build_time">Время сборки</string>
     <string name="system_version">Версия системы</string>
     <string name="system_framework">Структура сборки</string>
+    <string name="always_believe_that_good_things_will_happen">Никогда не переставайте верить, что вот-вот произойдёт что-то хорошее</string>
     <string name="more_info">Дополнительная информация</string>
     <string name="debug_details">Подробности отладки</string>
     <string name="device_details">Сведения об устройстве</string>
@@ -224,18 +232,18 @@
     <string name="auto_hide_expanded_notification">Автоматическое скрытие расширенных уведомлений</string>
     <string name="auto_hide_expanded_notification_delay">Задержка автоматического скрытия расширенных уведомлений</string>
     <string name="only_native_notification_style">Применимо только к родному стилю уведомлений</string>
-    <string name="focus_notification">Белый уведомлений</string>
+    <string name="focus_notification">Фокусировка уведомлений</string>
     <string name="focus_notification_desc">Применимо к Динамическому острову из HyperOS 3</string>
     <string name="focus_notification_tip">Функция «Фокусировка уведомлений» позволяет управлять музыкой, звонками и навигацией в отдельных приложениях при помощи уведомлений. Данные уведомления имеют высокий приоритет, поэтому при неправильном использовании они будут портить опыт работы. Их применение и время показа должны быть строго ограничены! Белый список даёт лишь право отправлять такие уведомления, но функционал уведомлений зависит непосредственно от приложения.</string>
-    <string name="focus_notification_test">Тест Белый уведомлений</string>
+    <string name="focus_notification_test">Тест Фокусировка уведомлений</string>
     <string name="focus_notification_whitelist">Белый список уведомлений</string>
-    <string name="focus_notification_whitelist_desc">Добавляйте приложения на основе официальных и используйте пользовательский формат уведомлений, чтобы выделить важную информацию</string>
+    <string name="focus_notification_whitelist_desc">Добавьте приложение из списка и используйте редактирование формата уведомлений, чтобы выделить важную информацию</string>
     <string name="dynamic_island">Динамический остров</string>
     <string name="show_weather_city">Показать город</string>
     <string name="control_center">Центр управления</string>
     <string name="hide_carrier">Скрыть имя оператора</string>
-    <string name="header_shortcut_button">Кнопка быстрого действия</string>
-    <string name="header_shortcut_button_desc">Добавьте кнопки быстрого доступа в верхнюю панель, такие как «Настройки», «Выключение» или «Режим без звука»</string>
+    <string name="header_shortcut_button">Кнопки быстрого действия</string>
+    <string name="header_shortcut_button_desc">Добавьте кнопки быстрого действия в верхнюю панель, такие как «Настройки», «Выключение» или «Режим без звука»</string>
     <string name="left_button_group">Левая группа кнопок</string>
     <string name="smart_home">Умный дом</string>
     <string name="xiaomi_smart_hub">Xiaomi Smart Hub</string>
@@ -254,9 +262,9 @@
     <string name="button_spacing">Расстояние между кнопками</string>
     <string name="tile_management">Управление плитками</string>
     <string name="five_g_switch">5G переключатель</string>
-    <string name="five_g_switch_desc">Добавить быстрое переключение на сеть 5G</string>
-    <string name="network_type_switch">Выбор типа сети</string>
-    <string name="network_type_switch_desc">Добавить настройку «Выбор типа сети» в плитке «Мобильный интернет» (только устройства Qualcomm)</string>
+    <string name="five_g_switch_desc">Добавить переключатель на сеть 5G в плитке «Мобильный интернет»</string>
+    <string name="network_type_switch">Предпочтительный тип сети</string>
+    <string name="network_type_switch_desc">Добавить настройку «Предпочтительный тип сети» в плитке «Мобильный интернет» (только для устройств Qualcomm)</string>
     <string name="network_settings">Настройки сети</string>
     <string name="only_two_g">Только 2G</string>
     <string name="prefer_three_g">Предпочтительно 3G</string>
@@ -294,17 +302,17 @@
     <string name="carrier_text_view_max_width">Максимальная ширина текста имени оператора</string>
     <string name="hide_fingerprint_icon">Скрыть значок сканера отпечатков пальцев</string>
     <string name="hide_fingerprint_icon_desc">Включите эту функцию, если вы привыкли к расположению сканера отпечатков пальцев</string>
-    <string name="fix_clock_widget">Зафиксировать виджет часов</string>
-    <string name="not_simplified_when_has_notification">Часы не сворачиваются при появлении уведомления</string>
+    <string name="fix_clock_widget">Зафиксировать вид часов</string>
+    <string name="not_simplified_when_has_notification">Всегда развёрнутый вид часов</string>
     <string name="always_simplified">Всегда свёрнутый вид часов</string>
-    <string name="move_notification_down">Сдвинуть уведомления вниз</string>
+    <string name="move_notification_down">Сдвинуть уведомления ниже</string>
     <string name="downward_movement_value">Значение сдвига уведомлений</string>
     <string name="downward_movement_max_value">Максимальное значение сдвига</string>
     <string name="downward_movement_max_value_desc">После изменения разрешения, требуется повторная конфигурация</string>
     <string name="downward_movement_method">Метод движения вниз</string>
     <string name="static_downward_movement">Статическое движение вниз</string>
     <string name="preset_dynamic_downward_movement">Динамическое нисходящее движение</string>
-    <string name="bottom_buttons">Нижние кнопки</string>
+    <string name="bottom_buttons">Кнопки на экране блокировки</string>
     <string name="remove_button_tips">Удалить подсказки кнопок</string>
     <string name="remove_button_tips_desc">Например, проведите пальцем вправо для получения дополнительных опций, перетащите значок, чтобы открыть камеру</string>
     <string name="customize_button">Настроить кнопки</string>
@@ -313,16 +321,16 @@
     <string name="button_bg_margins">Фон кнопок</string>
     <string name="button_bg_normal">Фон обычной кнопки</string>
     <string name="button_bg_active">Фон активированной кнопки</string>
-    <string name="button_active_sensitivity_level1">Чувствительность активированной кнопки (I)</string>
-    <string name="button_active_sensitivity_level2">Чувствительность активированной кнопки(II)</string>
+    <string name="button_active_sensitivity_level1">Чувствительность активации кнопки (I)</string>
+    <string name="button_active_sensitivity_level2">Чувствительность активации кнопки(II)</string>
     <string name="quick_payment">Быстрая оплата</string>
     <string name="flashlight">Фонарик</string>
     <string name="camera">Камера</string>
     <string name="customize_gesture">Пользовательские жесты</string>
-    <string name="swipe_direction_rtl">Слайд влево</string>
-    <string name="swipe_direction_ltr">Слайд вправо</string>
-    <string name="scramble_pin">Перемешать PIN-код</string>
-    <string name="remove_open_magazine_gesture">Отключение жеста \"Слайд влево\"</string>
+    <string name="swipe_direction_rtl">Свайп влево</string>
+    <string name="swipe_direction_ltr">Свайп вправо</string>
+    <string name="scramble_pin">Перемешивать PIN-код</string>
+    <string name="remove_open_magazine_gesture">Отключение жеста \"Свайп влево\"</string>
     <string name="remove_open_magazine_gesture_desc">Отключить \"минус первый экран\" на экране блокировки</string>
     <string name="status_bar_mode">Режим строки состояния</string>
     <string name="always_on_display">Always-on display</string>
