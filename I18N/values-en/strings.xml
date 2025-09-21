@@ -69,15 +69,12 @@
     <string name="debug_input">Input settings</string>
     <string name="debug_drawing">Drawing settings</string>
     <string name="debug_monitoring">Monitoring settings</string>
-    <string name="about_app">
-        <![CDATA[
-            <p>Due to limited device access, time and energy, this module only supports HyperOS 2.0 (Android 15), HyperOS 3.0 (Android 16) and newer system software (e.g., system launcher, security tools)! Please do not urge for updates!</p>
+    <string name="about_app"><![CDATA[            <p>Due to limited device access, time and energy, this module only supports HyperOS 2.0 (Android 15), HyperOS 3.0 (Android 16) and newer system software (e.g., system launcher, security tools)! Please do not urge for updates!</p>
             <p>Active Safe Mode is under testing. It may crash when there are major changes to the system version. If you do not know how to fix a bricked device, please use it with extreme caution.</p>
 
             <b>Module Author： <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
             <b>Icon Designer： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
-        ]]>
-    </string>
+        ]]></string>
     <!-- dialog -->
     <string name="whether_or_not">Sure want to %s?</string>
     <string name="double_confirmation">Double confirmation</string>
