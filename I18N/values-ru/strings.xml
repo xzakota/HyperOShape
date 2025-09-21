@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators"><b><a href="https://modernya.t.me"> ModerNya</a></b></string>
+    <string name="translators"><![CDATA[<li><a href="https://modernya.t.me">&nbsp;ModerNya</a></li>]]></string>
     <!-- base -->
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
@@ -105,8 +105,7 @@
     <string name="safe_mode_focus_report">Включить всплывающие уведомления</string>
     <string name="safe_mode_focus_report_desc">Если эта функция включена, системные настройки будут перезаписаны, и вы должны убедиться, что для области [SystemUI] установлен флажок </string>
     <string name="manage_hook_theme">Менеджер тем</string>
-    <string name="manage_hook_theme_require"><p>Менеджер тем необходим для изменения значков, поставляемых ИСКЛЮЧИТЕЛЬНО модулем OShape. Он не предназначен для импорта тем MTZ! </p>
-<p><a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">Инструкция по созданию тем.</a></p></string>
+    <string name="manage_hook_theme_require"><![CDATA[Менеджер тем необходим для изменения значков, поставляемых ИСКЛЮЧИТЕЛЬНО модулем OShape. Он не предназначен для импорта тем MTZ! <a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">Инструкция по созданию тем.</a>]]></string>
     <string name="import_theme">Импортировать тему</string>
     <string name="invalid_theme_package">Неверный пакет темы</string>
     <string name="invalid_theme_slug">Неверный идентификатор темы</string>
