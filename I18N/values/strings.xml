@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators">null</string>
+    <string name="translators"><![CDATA[null]]></string>
 
     <!-- base -->
     <string name="empty" translatable="false" />
@@ -114,7 +114,7 @@
     <string name="safe_mode_focus_report">以焦点通知形式通知</string>
     <string name="safe_mode_focus_report_desc">若启用，系统设置将被覆盖，同时须确保勾选 [系统界面] 作用域</string>
     <string name="manage_hook_theme">资源主题管理</string>
-    <string name="manage_hook_theme_require">使用自定义主题必须安装 >= 7334 版本的 LSPosed！</string>
+    <string name="manage_hook_theme_require"><![CDATA[资源主题管理仅适用于 OShape 特有的主题格式，不适用 HyperOS 的 MTZ 主题格式。<a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">资源主题构建教程</a>]]></string>
     <string name="import_theme">导入主题</string>
     <string name="invalid_theme_package">不是有效的主题包</string>
     <string name="invalid_theme_slug">不是有效的主题 ID</string>

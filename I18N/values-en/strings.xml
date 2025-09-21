@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- translators -->
-    <string name="translators">Google Translate</string>
+    <string name="translators"><![CDATA[Google Translate]]></string>
     <!-- base -->
     <string name="back">Back</string>
     <string name="menu">Menu</string>
@@ -105,7 +105,7 @@
     <string name="safe_mode_focus_report">Notify in the form of notification spotlight</string>
     <string name="safe_mode_focus_report_desc">If enabled, the system settings will be overwritten, and you must make sure that the [SystemUI] scope is checked</string>
     <string name="manage_hook_theme">Theme manager</string>
-    <string name="manage_hook_theme_require">To use a custom theme, you must have the &gt;= 7334 version of LSPosed installed!</string>
+    <string name="manage_hook_theme_require"><![CDATA[Theme manager is only available for OShape-specific theme formats, not MTZ theme formats for HyperOS. <a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">Theme Building Tutorial</a>]]></string>
     <string name="import_theme">Import theme</string>
     <string name="invalid_theme_package">Invalid theme package</string>
     <string name="invalid_theme_slug">Invalid theme id</string>
