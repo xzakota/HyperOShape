@@ -46,6 +46,7 @@
     <string name="additional_metadata">额外参数</string>
     <string name="post">发送</string>
     <string name="native_text">原生</string>
+    <string name="whitelist">白名单</string>
 
     <!-- app -->
     <string name="need_permission_what">需授予本应用 [%s] 权限</string>
@@ -289,6 +290,8 @@
     <string name="oshape_tile">OShape 快捷磁贴</string>
     <string name="sunlight_mode">阳光模式</string>
     <string name="invisible_mode">隐身模式</string>
+    <string name="app_folder">应用集</string>
+    <string name="edit_app_folder">编辑应用集</string>
     <string name="developer_options">开发者选项</string>
     <string name="show_touches">显示点按操作反馈</string>
     <string name="show_touches_desc">显示点按操作的视觉反馈</string>

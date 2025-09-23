@@ -44,6 +44,7 @@
     <string name="additional_metadata">Additional metadata</string>
     <string name="post">Post</string>
     <string name="native_text">Native</string>
+    <string name="whitelist">Whitelist</string>
     <!-- app -->
     <string name="need_permission_what">The [%s] permission needs to be granted to this app</string>
     <string name="need_permission_root">The [ROOT] permission needs to be granted to this app</string>
@@ -275,6 +276,8 @@
     <string name="oshape_tile">OShape shortcut tile</string>
     <string name="sunlight_mode">Sunlight mode</string>
     <string name="invisible_mode">Incognito</string>
+    <string name="app_folder">App folder</string>
+    <string name="edit_app_folder">Edit app folder</string>
     <string name="developer_options">Developer options</string>
     <string name="show_touches">Show taps</string>
     <string name="show_touches_desc">Show visual feedback for taps</string>
