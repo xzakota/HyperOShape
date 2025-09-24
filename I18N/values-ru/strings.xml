@@ -44,6 +44,7 @@
     <string name="additional_metadata">Дополнительные метаданные</string>
     <string name="post">Отправить</string>
     <string name="native_text">Родной</string>
+    <string name="whitelist">Белый список приложений</string>
     <!-- app -->
     <string name="need_permission_what">Этому приложению необходимо предоставить следующее разрешение: [%s]</string>
     <string name="need_permission_root">Этому приложению необходимо предоставить [ROOT] права</string>
@@ -121,8 +122,8 @@
     <string name="cannot_deleted_default_theme">Тема по умолчанию не может быть удалена</string>
     <string name="cannot_deleted_active_theme">Используемая тема не может быть удалена</string>
     <string name="safe_mode_report_test">Тестирование уведомления о безопасном режиме</string>
-    <string name="collaborative_config">В области применения</string>
-    <string name="scope_list_status">Не в области применения</string>
+    <string name="collaborative_config">Область применения</string>
+    <string name="scope_list_status">Статус</string>
     <string name="in_scope">Добавлено в область применения данного модуля</string>
     <string name="not_in_scope">Не добавлено в область применения данного модуля</string>
     <string name="request_scope">Область запроса</string>
@@ -223,7 +224,7 @@
     <string name="transparent_button_background">Прозрачный фон кнопки</string>
     <string name="layout_margin">Поля макета</string>
     <string name="right_icon_size">Размер иконки в уведомлении</string>
-    <string name="mini_window_bar">Мини панель</string>
+    <string name="mini_window_bar">Полоса для открытия уведомления в плавающем окне</string>
     <string name="icon_centered">Значок по центру</string>
     <string name="force_overlap_im_icon">Оптимизация значка источника</string>
     <string name="force_overlap_im_icon_desc">Принудительно отображать значок перекрытия</string>
@@ -275,6 +276,8 @@
     <string name="oshape_tile">Плитка OShape</string>
     <string name="sunlight_mode">Режим солнечного света</string>
     <string name="invisible_mode">Инкогнито</string>
+    <string name="app_folder">Папка с приложениями</string>
+    <string name="edit_app_folder">Изменить приложения, отображаемые в папке</string>
     <string name="developer_options">Для разработчиков</string>
     <string name="show_touches">Показывать нажатия</string>
     <string name="show_touches_desc">Визуальный отклик при нажатии</string>
@@ -308,10 +311,10 @@
     <string name="move_notification_down">Сдвинуть уведомления ниже</string>
     <string name="downward_movement_value">Значение сдвига уведомлений</string>
     <string name="downward_movement_max_value">Максимальное значение сдвига</string>
-    <string name="downward_movement_max_value_desc">После изменения разрешения, требуется повторная конфигурация</string>
-    <string name="downward_movement_method">Метод движения вниз</string>
-    <string name="static_downward_movement">Статическое движение вниз</string>
-    <string name="preset_dynamic_downward_movement">Динамическое нисходящее движение</string>
+    <string name="downward_movement_max_value_desc">После изменения значения сдвига требуется повторная перезагрузка интерфейса системы</string>
+    <string name="downward_movement_method">Метод сдвига уведомлений</string>
+    <string name="static_downward_movement">Статический сдвиг</string>
+    <string name="preset_dynamic_downward_movement">Динамический сдвиг</string>
     <string name="bottom_buttons">Кнопки на экране блокировки</string>
     <string name="remove_button_tips">Удалить подсказки кнопок</string>
     <string name="remove_button_tips_desc">Например, проведите пальцем вправо для получения дополнительных опций, перетащите значок, чтобы открыть камеру</string>
