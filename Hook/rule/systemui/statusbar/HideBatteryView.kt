@@ -92,32 +92,6 @@ object HideBatteryView : BaseRule() {
             }
         }
 
-        batteryMeterView.afterHookedMethodByName("onLayout") { param ->
-            val viewGroup = param.thisObject<ViewGroup>()
-            // val changed = param.args<Boolean>()
-            // val l = param.args<Int>(1)
-            // val t = param.args<Int>(2)
-            // val r = param.args<Int>(3)
-            // val b = param.args<Int>(4)
-
-            val parentWidth = viewGroup.measuredWidth
-            val parentHeight = viewGroup.measuredHeight
-
-            // val isLayoutRtl = viewGroup.callMethodAs<Boolean>("isLayoutRtl")
-            val batteryChargingView = viewGroup.findField<View?>("mBatteryChargingView").get()
-            if (batteryChargingView != null && batteryChargingView.isVisible) {
-                val childWidth = batteryChargingView.measuredWidth
-                val childHeight = batteryChargingView.measuredHeight
-
-                val childLeft = parentWidth - childWidth
-                val childRight = parentWidth
-                val childTop = (parentHeight - childHeight) / 2
-                val childBottom = childTop + childHeight
-
-                batteryChargingView.layout(childLeft, childTop, childRight, childBottom)
-            }
-        }
-
         batteryMeterView.beforeHookedMethod("onMeasure", Int::class.java, Int::class.java) { param ->
             val viewGroup = param.thisObject<ViewGroup>()
             val widthMeasureSpec = param.args<Int>()
