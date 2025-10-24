@@ -82,6 +82,8 @@
             <b>软件图标设计： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
         ]]>
     </string>
+    <string name="uninstall_title">卸载 OShape</string>
+    <string name="uninstall_content">卸载 OShape 后模块配置仍然会保存在 LSPosed 数据库中，若需要彻底清除请前往模块设置中清除配置。</string>
 
     <!-- dialog -->
     <string name="whether_or_not">是否%s？</string>
@@ -95,6 +97,7 @@
 
     <!-- function -->
     <string name="clean_dexkit_cache">清理 DexKit 缓存</string>
+    <string name="clean_old_cache">清理过时缓存</string>
     <string name="experimental_function">实验性功能</string>
     <string name="additional_function">附加功能</string>
     <string name="hidden_features">隐藏特性</string>
@@ -174,6 +177,8 @@
     <string name="height">高度</string>
     <string name="width">宽度</string>
     <string name="rounded_corners">圆角</string>
+    <string name="left_margin">左侧边距</string>
+    <string name="right_margin">右侧边距</string>
     <string name="horizontal_margin">水平边距</string>
     <string name="vertical_margin">垂直边距</string>
     <string name="top_margin">顶部边距</string>
@@ -224,9 +229,29 @@
 
     <!-- android -->
     <string name="notification">通知</string>
+    <string name="normalized_hotspot_notification">禁止热点通知显示为焦点样式</string>
     <string name="device_global_settings">全局设置</string>
 
     <!-- system ui -->
+    <string name="status_bar">状态栏</string>
+    <string name="status_bar_icon_display_customization">状态栏图标显示自定义</string>
+    <string name="status_bar_icon_display_customization_desc">系统设置页增加更多图标显示/隐藏</string>
+    <string name="always_show">始终显示</string>
+    <string name="always_hide">始终隐藏</string>
+    <string name="only_show_in_cc">仅在控制中心显示</string>
+    <string name="insert_position_of">插入索引</string>
+    <string name="phone_battery">手机电池</string>
+    <string name="phone_battery_state">手机电池信息</string>
+    <string name="display_method">显示方式</string>
+    <string name="display_content">显示内容</string>
+    <string name="always_take_abs_value">总取正值</string>
+    <string name="temperature_and_current">温度和电流</string>
+    <string name="temperature_and_power">温度和功率</string>
+    <string name="current_and_power">电流和功率</string>
+    <string name="hide_battery_icon">隐藏电池图标</string>
+    <string name="hide_battery_icon_desc">仅显示数字百分比及充电标识</string>
+    <string name="hide_battery_percent">隐藏电池百分比</string>
+    <string name="bluetooth_battery_level">蓝牙设备电量等级</string>
     <string name="header_layout">顶栏布局</string>
     <string name="landscape_display">横屏显示</string>
     <string name="notification_center">通知中心</string>
@@ -322,6 +347,8 @@
     <string name="fix_clock_widget">固定时间组件</string>
     <string name="not_simplified_when_has_notification">当有通知时不简化时钟显示</string>
     <string name="always_simplified">始终简化显示</string>
+    <string name="hide_notification_panel">不显示任何通知</string>
+    <string name="hide_notification_panel_desc">您仍可通过下滑手势打开通知中心查看通知</string>
     <string name="move_notification_down">通知下沉</string>
     <string name="downward_movement_value">下沉高度</string>
     <string name="downward_movement_max_value">最大下沉值</string>
@@ -363,8 +390,8 @@
     <string name="fix_jump_draw_overlay_details">修正跳转授予“显示在其他应用的上层”权限</string>
     <string name="show_notification_channel_id">通知类别页显示渠道 ID</string>
     <string name="channel_id">渠道 ID</string>
-    <string name="status_bar_icon_display_customization">状态栏图标显示自定义</string>
-    <string name="status_bar_icon_display_customization_desc">增加更多图标显示/隐藏</string>
+    <string name="exist_icon">现有图标</string>
+    <string name="added_icon">新增图标</string>
     <string name="device_bg_effect_follow_hook_theme">设备页背景动效跟随资源主题</string>
     <string name="bluetooth">蓝牙</string>
     <string name="bluetooth_device_battery">蓝牙设备电量</string>
@@ -372,6 +399,7 @@
     <string name="airplane_mode">飞行模式</string>
     <string name="no_sim_card">无 SIM 卡</string>
     <string name="mobile">移动数据</string>
+    <string name="mobile_data">上网卡信号</string>
     <string name="mobile_1">卡 1 信号</string>
     <string name="mobile_2">卡 2 信号</string>
     <string name="wifi" translatable="false">WiFi</string>
@@ -405,7 +433,7 @@
 
     <!-- security center -->
     <string name="simplified_home_fragment">精简手机管家首页</string>
-    <string name="simplified_home_fragment_desc">移除以下卡片:\n - 功能推荐\n - 大家都在用</string>
+    <string name="simplified_home_fragment_desc">锁定 100 分并移除以下卡片:\n - 功能推荐\n - 大家都在用</string>
     <string name="security">安全</string>
     <string name="skip_intercept_wait">跳过授权拦截</string>
     <string name="skip_intercept_wait_desc">跳过授予危险权限时 5/10 秒等待</string>
