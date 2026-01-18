@@ -57,7 +57,7 @@
     <string name="q_reset_app">Do you want to reset this app?</string>
     <string name="q_copy_to_clipboard">Do you want to copy to clipboard?</string>
     <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="in_midst_of_development">This page is in the midst of development.</string>
+    <string name="in_midst_of_development">This page is in the midst of development</string>
     <string name="selected_support_sort">Selected(drag-and-drop sorting)</string>
     <string name="preview_image">Preview image</string>
     <string name="in_use">In use</string>
@@ -76,6 +76,8 @@
             <b>Module Author： <a href="http://github.com/xzakota">此夜 | xzakota</a></b><br />
             <b>Icon Designer： <a href="http://www.coolapk.com/u/621217">是山上的耕田呀</a></b>
         ]]></string>
+    <string name="uninstall_title">Uninstall OShape</string>
+    <string name="uninstall_content">After uninstalling OShape, the module configuration will still be saved in the LSPosed database. If you need to completely clear it, please go to the module settings page to reset the configuration.</string>
     <!-- dialog -->
     <string name="whether_or_not">Sure want to %s?</string>
     <string name="double_confirmation">Double confirmation</string>
@@ -86,6 +88,7 @@
     <string name="copy_logs">Copy logs</string>
     <!-- function -->
     <string name="clean_dexkit_cache">Clean DexKit cache</string>
+    <string name="clean_old_cache">Clean outdated cache</string>
     <string name="experimental_function">Experimental function</string>
     <string name="additional_function">Additional function</string>
     <string name="hidden_features">Hidden features</string>
@@ -109,7 +112,7 @@
     <string name="manage_hook_theme_require"><![CDATA[Theme manager is only available for OShape-specific theme formats, not MTZ theme formats for HyperOS. <a href="https://github.com/xzakota/HyperOShape/tree/main/HookTheme">Theme Building Tutorial</a>]]></string>
     <string name="import_theme">Import theme</string>
     <string name="invalid_theme_package">Invalid theme package</string>
-    <string name="invalid_theme_slug">Invalid theme id</string>
+    <string name="invalid_theme_slug">Invalid theme ID</string>
     <string name="theme_exists">The theme already exists, is it overwrite?</string>
     <string name="importing">Importing</string>
     <string name="import_succeeded">Import succeeded</string>
@@ -163,6 +166,8 @@
     <string name="height">height</string>
     <string name="width">Width</string>
     <string name="rounded_corners">Rounded corners</string>
+    <string name="left_margin">Left margin</string>
+    <string name="right_margin">Right margin</string>
     <string name="horizontal_margin">Horizontal margin</string>
     <string name="vertical_margin">Vertical margin</string>
     <string name="top_margin">Top margin</string>
@@ -211,8 +216,28 @@
     <string name="view_in_browser">View in browser</string>
     <!-- android -->
     <string name="notification">Notification</string>
+    <string name="normalized_hotspot_notification">Disable hotspot notification from being displayed as \"Notification spotlight\"</string>
     <string name="device_global_settings">Global settings</string>
     <!-- system ui -->
+    <string name="status_bar">Status Bar</string>
+    <string name="status_bar_icon_display_customization">Status bar icon display customization</string>
+    <string name="status_bar_icon_display_customization_desc">Added more icons to show/hide</string>
+    <string name="always_show">Always showing</string>
+    <string name="always_hide">Always hide</string>
+    <string name="only_show_in_cc">Showing only in the control center</string>
+    <string name="insert_position_of">Insert index</string>
+    <string name="phone_battery">Phone battery</string>
+    <string name="phone_battery_state">Phone battery state</string>
+    <string name="display_method">Displayed method</string>
+    <string name="display_content">Displayed content</string>
+    <string name="always_take_abs_value">Always take positive values</string>
+    <string name="temperature_and_current">Temperature and current</string>
+    <string name="temperature_and_power">Temperature and power</string>
+    <string name="current_and_power">Current and power</string>
+    <string name="hide_battery_icon">Hide battery icon</string>
+    <string name="hide_battery_icon_desc">Only displays numerical percentage and charging indicator</string>
+    <string name="hide_battery_percent">Hide battery percentage</string>
+    <string name="bluetooth_battery_level">Bluetooth device battery level</string>
     <string name="header_layout">Header layout</string>
     <string name="landscape_display">Landscape display</string>
     <string name="notification_center">Notification Center</string>
@@ -308,6 +333,8 @@
     <string name="fix_clock_widget">Fix Clock Widget</string>
     <string name="not_simplified_when_has_notification">The display is not simplified when there is a notification</string>
     <string name="always_simplified">Always simplify the display</string>
+    <string name="hide_notification_panel">Don\'t display any notifications</string>
+    <string name="hide_notification_panel_desc">You can still open the Notification Center by swiping down to view notifications</string>
     <string name="move_notification_down">Move notification down</string>
     <string name="downward_movement_value">Downward movement value</string>
     <string name="downward_movement_max_value">Max downward movement value</string>
@@ -348,14 +375,15 @@
     <string name="fix_jump_draw_overlay_details">Fixed granting the \"Display over other apps\" permission not jumping correctly</string>
     <string name="show_notification_channel_id">Notification category page displays channel ID</string>
     <string name="channel_id">Channel ID</string>
-    <string name="status_bar_icon_display_customization">Status bar icon display customization</string>
-    <string name="status_bar_icon_display_customization_desc">Added more icons to show/hide</string>
+    <string name="exist_icon">Existing icons</string>
+    <string name="added_icon">Added icons</string>
     <string name="device_bg_effect_follow_hook_theme">Device page background effect follow hook theme</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_device_battery">Bluetooth device battery</string>
     <string name="airplane_mode">Airplane mode</string>
     <string name="no_sim_card">No SIM card</string>
     <string name="mobile">Mobile</string>
+    <string name="mobile_data">Signal of the card is online</string>
     <string name="mobile_1">Card 1 signal</string>
     <string name="mobile_2">Card 2 signal</string>
     <!-- home -->
