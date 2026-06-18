@@ -22,14 +22,18 @@ jobs:
       
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      
       - name: Build with Gradle
-        run: ./gradlew :Hook:assembleDebug --no-daemon
-      
-      - name: Upload AAR
+        run: |
+          ./gradlew :Hook:assembleDebug :Hook:assembleRelease --no-daemon
+
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: hyperoshape-debug
-          path: |
-            Hook/build/outputs/aar/*.aar
-            Hook/build/outputs/apk/**/*.apk
+          path: Hook/build/outputs/apk/debug/*.apk
+
+      - name: Upload Release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyperoshape-release
+          path: Hook/build/outputs/apk/release/*.apk
