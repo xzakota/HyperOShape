@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [ main, lsposed-api-101-support ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+      
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      
+      - name: Build with Gradle
+        run: ./gradlew :Hook:assembleDebug --no-daemon
+      
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyperoshape-debug
+          path: Hook/build/outputs/apk/debug/*.apk
