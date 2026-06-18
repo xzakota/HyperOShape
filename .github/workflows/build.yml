@@ -26,8 +26,10 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew :Hook:assembleDebug --no-daemon
       
-      - name: Upload APK
+      - name: Upload AAR
         uses: actions/upload-artifact@v4
         with:
           name: hyperoshape-debug
-          path: Hook/build/outputs/apk/debug/*.apk
+          path: |
+            Hook/build/outputs/aar/*.aar
+            Hook/build/outputs/apk/**/*.apk
