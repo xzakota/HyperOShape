@@ -5,6 +5,7 @@ on:
     branches: [ main, lsposed-api-101-support ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
