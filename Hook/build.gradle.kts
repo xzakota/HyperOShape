@@ -29,15 +29,6 @@ android {
         }
     }
     
-    signingConfigs {
-        create("debug") {
-            storeFile = file("debug.keystore")
-            storePassword = "android"
-            keyAlias = "androiddebugkey"
-            keyPassword = "android"
-        }
-    }
-    
     buildTypes.forEach {
         it.buildConfigField("String", "VERSION_NAME", "\"${defaultConfig.versionName}\"")
     }
