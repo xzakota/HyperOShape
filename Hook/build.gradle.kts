@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.library")
+    id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
@@ -8,10 +8,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        applicationId = "com.xzakota.oshape"
         minSdk = 30
         targetSdk = 34
-
-        consumerProguardFiles("consumer-rules.pro")
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     buildTypes {
@@ -24,6 +25,16 @@ android {
         }
         debug {
             isMinifyEnabled = false
+        }
+    }
+    
+    buildTypes.forEach {
+        it.buildConfigField("String", "VERSION_NAME", "\"${defaultConfig.versionName}\"")
+    }
+    
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
     
