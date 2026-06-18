@@ -44,12 +44,12 @@ android {
 
 dependencies {
     // LSPosed API 101 - Core Xposed framework
-    compileOnly("io.github.libxposed:api:101")
+    compileOnly("io.github.libxposed:api:101.0.0")
     
     // AndroidX
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     
     // DexKit for dynamic hooking
-    implementation("org.lsposed.dexkit:dexkit:2.0.4")
+    implementation("org.luckypray:dexkit:2.0.5")
 }
